@@ -1,0 +1,3312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_221d6dd0407c5042818d4d3af7f2d5ea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_221d6dd0407c5042818d4d3af7f2d5ea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_221d6dd0407c5042818d4d3af7f2d5ea = L.map(
+                "map_221d6dd0407c5042818d4d3af7f2d5ea",
+                {
+                    center: [7.11392, -73.1198],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5b2da7e11df1d6f1b7855723baf07d71 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_221d6dd0407c5042818d4d3af7f2d5ea);
+        
+    
+            var marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd = L.markerClusterGroup(
+                {}
+            );
+            map_221d6dd0407c5042818d4d3af7f2d5ea.addLayer(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+            var marker_bbe62c90f271f8bf3e574ebd76f13669 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_102807dafa64ac93bb1b9a96b32e2606 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80771fa9ac2f767748bef3bcaaf2a269 = $(`<div id="html_80771fa9ac2f767748bef3bcaaf2a269" style="width: 100.0%; height: 100.0%;">Neighborhood: Antonia Santos Centro<br>Cluster: 2</div>`)[0];
+                popup_102807dafa64ac93bb1b9a96b32e2606.setContent(html_80771fa9ac2f767748bef3bcaaf2a269);
+            
+        
+
+        marker_bbe62c90f271f8bf3e574ebd76f13669.bindPopup(popup_102807dafa64ac93bb1b9a96b32e2606)
+        ;
+
+        
+    
+    
+            var marker_d3cdf4bda2833d84298c7a7f52a71aa2 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_bc279c0f0a0ccd4652740cf4de5939c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_341c1e4823f40e7db43005e3c02c9f92 = $(`<div id="html_341c1e4823f40e7db43005e3c02c9f92" style="width: 100.0%; height: 100.0%;">Neighborhood: Antonia Santos Centro<br>Cluster: 2</div>`)[0];
+                popup_bc279c0f0a0ccd4652740cf4de5939c2.setContent(html_341c1e4823f40e7db43005e3c02c9f92);
+            
+        
+
+        marker_d3cdf4bda2833d84298c7a7f52a71aa2.bindPopup(popup_bc279c0f0a0ccd4652740cf4de5939c2)
+        ;
+
+        
+    
+    
+            var marker_73b892674da959c4d972f6cae5e84131 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_2cbec3c5e3b9f4063b23b2adbd35753b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd368b63077c13923c49075c908efe53 = $(`<div id="html_bd368b63077c13923c49075c908efe53" style="width: 100.0%; height: 100.0%;">Neighborhood: Antonia Santos Centro<br>Cluster: 2</div>`)[0];
+                popup_2cbec3c5e3b9f4063b23b2adbd35753b.setContent(html_bd368b63077c13923c49075c908efe53);
+            
+        
+
+        marker_73b892674da959c4d972f6cae5e84131.bindPopup(popup_2cbec3c5e3b9f4063b23b2adbd35753b)
+        ;
+
+        
+    
+    
+            var marker_e8170d24cec5da4fe5aeaf2c2f97235c = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_50ebd45d35430d97bcd1885fded25e40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_393b4e89a9e3638629dcc9a4fff60f0c = $(`<div id="html_393b4e89a9e3638629dcc9a4fff60f0c" style="width: 100.0%; height: 100.0%;">Neighborhood: Antonia Santos Centro<br>Cluster: 2</div>`)[0];
+                popup_50ebd45d35430d97bcd1885fded25e40.setContent(html_393b4e89a9e3638629dcc9a4fff60f0c);
+            
+        
+
+        marker_e8170d24cec5da4fe5aeaf2c2f97235c.bindPopup(popup_50ebd45d35430d97bcd1885fded25e40)
+        ;
+
+        
+    
+    
+            var marker_e3617b25407eaebbcc6d649e4f2e7558 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_a5a1c02c4196417f7e444c0e5e4b94f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9708358be425a4742068c8851c495968 = $(`<div id="html_9708358be425a4742068c8851c495968" style="width: 100.0%; height: 100.0%;">Neighborhood: Antonia Santos Centro<br>Cluster: 2</div>`)[0];
+                popup_a5a1c02c4196417f7e444c0e5e4b94f2.setContent(html_9708358be425a4742068c8851c495968);
+            
+        
+
+        marker_e3617b25407eaebbcc6d649e4f2e7558.bindPopup(popup_a5a1c02c4196417f7e444c0e5e4b94f2)
+        ;
+
+        
+    
+    
+            var marker_2a9534716ab263003acec13b2f365e24 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_856fd6f8ec770cf4bdb941d43caccce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d727ea2e7e1618594ae4b6ed8aef3a0 = $(`<div id="html_2d727ea2e7e1618594ae4b6ed8aef3a0" style="width: 100.0%; height: 100.0%;">Neighborhood: Antonia Santos Centro<br>Cluster: 2</div>`)[0];
+                popup_856fd6f8ec770cf4bdb941d43caccce1.setContent(html_2d727ea2e7e1618594ae4b6ed8aef3a0);
+            
+        
+
+        marker_2a9534716ab263003acec13b2f365e24.bindPopup(popup_856fd6f8ec770cf4bdb941d43caccce1)
+        ;
+
+        
+    
+    
+            var marker_27ede4f589721c9c08183156d87ebdf4 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_dfbe65540118c2610b226077b7c7de18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b98fc057bfcc5084c6fed4688b85fcf8 = $(`<div id="html_b98fc057bfcc5084c6fed4688b85fcf8" style="width: 100.0%; height: 100.0%;">Neighborhood: Antonia Santos Centro<br>Cluster: 2</div>`)[0];
+                popup_dfbe65540118c2610b226077b7c7de18.setContent(html_b98fc057bfcc5084c6fed4688b85fcf8);
+            
+        
+
+        marker_27ede4f589721c9c08183156d87ebdf4.bindPopup(popup_dfbe65540118c2610b226077b7c7de18)
+        ;
+
+        
+    
+    
+            var marker_cdffa0165f19a8bf254703bf84f7e02b = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_a5626644caf995b1f911b51164759bc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb2fef39db5d6c043045195a482d3aeb = $(`<div id="html_cb2fef39db5d6c043045195a482d3aeb" style="width: 100.0%; height: 100.0%;">Neighborhood: El Tejar<br>Cluster: 2</div>`)[0];
+                popup_a5626644caf995b1f911b51164759bc8.setContent(html_cb2fef39db5d6c043045195a482d3aeb);
+            
+        
+
+        marker_cdffa0165f19a8bf254703bf84f7e02b.bindPopup(popup_a5626644caf995b1f911b51164759bc8)
+        ;
+
+        
+    
+    
+            var marker_17935d15eb2fb11e4d9b51b42a1be33c = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_f917e369c76877891b71839aa05a4b47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64bb687a5916876816ad42add23ac9de = $(`<div id="html_64bb687a5916876816ad42add23ac9de" style="width: 100.0%; height: 100.0%;">Neighborhood: El Tejar<br>Cluster: 2</div>`)[0];
+                popup_f917e369c76877891b71839aa05a4b47.setContent(html_64bb687a5916876816ad42add23ac9de);
+            
+        
+
+        marker_17935d15eb2fb11e4d9b51b42a1be33c.bindPopup(popup_f917e369c76877891b71839aa05a4b47)
+        ;
+
+        
+    
+    
+            var marker_ceec05a3b1b1ae9955e4dbd1f6176c20 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c16d04447b5426f5c6904e6be88b38d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc42d4a130a95351741f752617689891 = $(`<div id="html_dc42d4a130a95351741f752617689891" style="width: 100.0%; height: 100.0%;">Neighborhood: El Tejar<br>Cluster: 2</div>`)[0];
+                popup_c16d04447b5426f5c6904e6be88b38d7.setContent(html_dc42d4a130a95351741f752617689891);
+            
+        
+
+        marker_ceec05a3b1b1ae9955e4dbd1f6176c20.bindPopup(popup_c16d04447b5426f5c6904e6be88b38d7)
+        ;
+
+        
+    
+    
+            var marker_dfb3da8a75e3d1f9b4d224cda2da4d1f = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_1a01d2ed386d2d76950f67e5bf604458 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b57e52819d824a6d5c4fbacd10b1bb23 = $(`<div id="html_b57e52819d824a6d5c4fbacd10b1bb23" style="width: 100.0%; height: 100.0%;">Neighborhood: El Tejar<br>Cluster: 2</div>`)[0];
+                popup_1a01d2ed386d2d76950f67e5bf604458.setContent(html_b57e52819d824a6d5c4fbacd10b1bb23);
+            
+        
+
+        marker_dfb3da8a75e3d1f9b4d224cda2da4d1f.bindPopup(popup_1a01d2ed386d2d76950f67e5bf604458)
+        ;
+
+        
+    
+    
+            var marker_4fd2e9dca17c5576af328a83f48e2d55 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_3585073344297b3c8585646a60ebb1a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fc6bf49343bed98618b8506281045e6 = $(`<div id="html_9fc6bf49343bed98618b8506281045e6" style="width: 100.0%; height: 100.0%;">Neighborhood: Cafe Madrid<br>Cluster: 3</div>`)[0];
+                popup_3585073344297b3c8585646a60ebb1a8.setContent(html_9fc6bf49343bed98618b8506281045e6);
+            
+        
+
+        marker_4fd2e9dca17c5576af328a83f48e2d55.bindPopup(popup_3585073344297b3c8585646a60ebb1a8)
+        ;
+
+        
+    
+    
+            var marker_188c9621b590fa98f32e258e0182a15f = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_73d1c58c70cc23d60d36abb55c19688f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04a8437b48ea1c15fb36e277a71bf7f4 = $(`<div id="html_04a8437b48ea1c15fb36e277a71bf7f4" style="width: 100.0%; height: 100.0%;">Neighborhood: Bolarqui<br>Cluster: 2</div>`)[0];
+                popup_73d1c58c70cc23d60d36abb55c19688f.setContent(html_04a8437b48ea1c15fb36e277a71bf7f4);
+            
+        
+
+        marker_188c9621b590fa98f32e258e0182a15f.bindPopup(popup_73d1c58c70cc23d60d36abb55c19688f)
+        ;
+
+        
+    
+    
+            var marker_aa657623565b9f923994714d99a2a1bf = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_87bcda969565161345bb12eac938236e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_495022e2e5115c7ef73c01cfae5b9266 = $(`<div id="html_495022e2e5115c7ef73c01cfae5b9266" style="width: 100.0%; height: 100.0%;">Neighborhood: Sotomayor<br>Cluster: 1</div>`)[0];
+                popup_87bcda969565161345bb12eac938236e.setContent(html_495022e2e5115c7ef73c01cfae5b9266);
+            
+        
+
+        marker_aa657623565b9f923994714d99a2a1bf.bindPopup(popup_87bcda969565161345bb12eac938236e)
+        ;
+
+        
+    
+    
+            var marker_b71a579420935374f2b34f30ab58a422 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_b023daf272ce2b87b41486657dd052b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60604d245ca76899f4f0d339860fbb55 = $(`<div id="html_60604d245ca76899f4f0d339860fbb55" style="width: 100.0%; height: 100.0%;">Neighborhood: Garcia Rovira<br>Cluster: 0</div>`)[0];
+                popup_b023daf272ce2b87b41486657dd052b4.setContent(html_60604d245ca76899f4f0d339860fbb55);
+            
+        
+
+        marker_b71a579420935374f2b34f30ab58a422.bindPopup(popup_b023daf272ce2b87b41486657dd052b4)
+        ;
+
+        
+    
+    
+            var marker_7a407a72c978512ed26c934b96234d93 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_aa637e32f79013a7d3e518777a0d910c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7190c0b1ce81e2d5ef71ddeb1e63b951 = $(`<div id="html_7190c0b1ce81e2d5ef71ddeb1e63b951" style="width: 100.0%; height: 100.0%;">Neighborhood: Puerta del Sol<br>Cluster: 2</div>`)[0];
+                popup_aa637e32f79013a7d3e518777a0d910c.setContent(html_7190c0b1ce81e2d5ef71ddeb1e63b951);
+            
+        
+
+        marker_7a407a72c978512ed26c934b96234d93.bindPopup(popup_aa637e32f79013a7d3e518777a0d910c)
+        ;
+
+        
+    
+    
+            var marker_29dc04ef37335f102633426a6db18aef = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_27022c2b5bacbf6b3aeff4fa2c09838b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b7d870a0bad67f2ec436300a01e518d = $(`<div id="html_4b7d870a0bad67f2ec436300a01e518d" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_27022c2b5bacbf6b3aeff4fa2c09838b.setContent(html_4b7d870a0bad67f2ec436300a01e518d);
+            
+        
+
+        marker_29dc04ef37335f102633426a6db18aef.bindPopup(popup_27022c2b5bacbf6b3aeff4fa2c09838b)
+        ;
+
+        
+    
+    
+            var marker_2d35b3608b558cd4c4501e852e8a8d52 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_85738735b104d2e9ecb3e3d7b0abda93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5c69bccfd4ef2b6e3518527208c1450 = $(`<div id="html_b5c69bccfd4ef2b6e3518527208c1450" style="width: 100.0%; height: 100.0%;">Neighborhood: La Floresta<br>Cluster: 2</div>`)[0];
+                popup_85738735b104d2e9ecb3e3d7b0abda93.setContent(html_b5c69bccfd4ef2b6e3518527208c1450);
+            
+        
+
+        marker_2d35b3608b558cd4c4501e852e8a8d52.bindPopup(popup_85738735b104d2e9ecb3e3d7b0abda93)
+        ;
+
+        
+    
+    
+            var marker_7c6221d088aa56e5e1d7ab424ce4ce9d = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_e2ec863f3da5140e0231111a596a2c5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e476506146e4ed8d15b08d7fdebac60 = $(`<div id="html_8e476506146e4ed8d15b08d7fdebac60" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_e2ec863f3da5140e0231111a596a2c5f.setContent(html_8e476506146e4ed8d15b08d7fdebac60);
+            
+        
+
+        marker_7c6221d088aa56e5e1d7ab424ce4ce9d.bindPopup(popup_e2ec863f3da5140e0231111a596a2c5f)
+        ;
+
+        
+    
+    
+            var marker_3cee287dc39f4d7466b6a4607316dce7 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_0c8b3db4e72b29c7db53c0c3ecea6a58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69cba8b3601efc4178dc560be5ba1d07 = $(`<div id="html_69cba8b3601efc4178dc560be5ba1d07" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_0c8b3db4e72b29c7db53c0c3ecea6a58.setContent(html_69cba8b3601efc4178dc560be5ba1d07);
+            
+        
+
+        marker_3cee287dc39f4d7466b6a4607316dce7.bindPopup(popup_0c8b3db4e72b29c7db53c0c3ecea6a58)
+        ;
+
+        
+    
+    
+            var marker_047eb7562f98c770e9e496acdb76c5ba = L.marker(
+                [7.094955741000035, -73.14061271899999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_0b0ccf36cbdcc5cce856d729cc84771e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_244422d65f458cad42a987cc56221fe1 = $(`<div id="html_244422d65f458cad42a987cc56221fe1" style="width: 100.0%; height: 100.0%;">Neighborhood: Mutis<br>Cluster: 4</div>`)[0];
+                popup_0b0ccf36cbdcc5cce856d729cc84771e.setContent(html_244422d65f458cad42a987cc56221fe1);
+            
+        
+
+        marker_047eb7562f98c770e9e496acdb76c5ba.bindPopup(popup_0b0ccf36cbdcc5cce856d729cc84771e)
+        ;
+
+        
+    
+    
+            var marker_53e8bdd9b34daeb04282268c23ec6100 = L.marker(
+                [7.124118112000076, -73.14241090399997],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_59f2f68b3d8a47827a6af910b0504b89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49d23f6c4dc28f37e9025fe7b9e20555 = $(`<div id="html_49d23f6c4dc28f37e9025fe7b9e20555" style="width: 100.0%; height: 100.0%;">Neighborhood: Granada<br>Cluster: 0</div>`)[0];
+                popup_59f2f68b3d8a47827a6af910b0504b89.setContent(html_49d23f6c4dc28f37e9025fe7b9e20555);
+            
+        
+
+        marker_53e8bdd9b34daeb04282268c23ec6100.bindPopup(popup_59f2f68b3d8a47827a6af910b0504b89)
+        ;
+
+        
+    
+    
+            var marker_c1f9ca9dec8266c58d7575a9d26a2300 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_8ac5d9533e4c1ab1b35ea0b8a2d3d828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_becd0ffb194d791eeb6be3dfe16ad8a4 = $(`<div id="html_becd0ffb194d791eeb6be3dfe16ad8a4" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_8ac5d9533e4c1ab1b35ea0b8a2d3d828.setContent(html_becd0ffb194d791eeb6be3dfe16ad8a4);
+            
+        
+
+        marker_c1f9ca9dec8266c58d7575a9d26a2300.bindPopup(popup_8ac5d9533e4c1ab1b35ea0b8a2d3d828)
+        ;
+
+        
+    
+    
+            var marker_13744c8ac1f01ab297322e5a974b0f03 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_11deb604b375abffc7b9f69df78e63a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e1c175cd02f4dca28c52e3b7017cb51 = $(`<div id="html_8e1c175cd02f4dca28c52e3b7017cb51" style="width: 100.0%; height: 100.0%;">Neighborhood: Morrorico<br>Cluster: 1</div>`)[0];
+                popup_11deb604b375abffc7b9f69df78e63a0.setContent(html_8e1c175cd02f4dca28c52e3b7017cb51);
+            
+        
+
+        marker_13744c8ac1f01ab297322e5a974b0f03.bindPopup(popup_11deb604b375abffc7b9f69df78e63a0)
+        ;
+
+        
+    
+    
+            var marker_ecec95cd08ad799678f3a8a5e43b73ce = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_a3834283f30d90d48c5fddc176d0b6f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4e79e1938e0247d5e0299351de666fe = $(`<div id="html_b4e79e1938e0247d5e0299351de666fe" style="width: 100.0%; height: 100.0%;">Neighborhood: Fontana<br>Cluster: 4</div>`)[0];
+                popup_a3834283f30d90d48c5fddc176d0b6f5.setContent(html_b4e79e1938e0247d5e0299351de666fe);
+            
+        
+
+        marker_ecec95cd08ad799678f3a8a5e43b73ce.bindPopup(popup_a3834283f30d90d48c5fddc176d0b6f5)
+        ;
+
+        
+    
+    
+            var marker_773e572e4eeabd213a0007dd7d52233f = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_8e315f748a745ad3847ed23508f93b33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bed1c349b925930f89bc80887fb0b320 = $(`<div id="html_bed1c349b925930f89bc80887fb0b320" style="width: 100.0%; height: 100.0%;">Neighborhood: Comuneros<br>Cluster: 3</div>`)[0];
+                popup_8e315f748a745ad3847ed23508f93b33.setContent(html_bed1c349b925930f89bc80887fb0b320);
+            
+        
+
+        marker_773e572e4eeabd213a0007dd7d52233f.bindPopup(popup_8e315f748a745ad3847ed23508f93b33)
+        ;
+
+        
+    
+    
+            var marker_337b59cacdde6366632974b3ef3c3b55 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_53f434e41de8ee47009ea2522aee9f5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4196b648c3a73bf8aa156378e9ecc480 = $(`<div id="html_4196b648c3a73bf8aa156378e9ecc480" style="width: 100.0%; height: 100.0%;">Neighborhood: Comuneros<br>Cluster: 3</div>`)[0];
+                popup_53f434e41de8ee47009ea2522aee9f5f.setContent(html_4196b648c3a73bf8aa156378e9ecc480);
+            
+        
+
+        marker_337b59cacdde6366632974b3ef3c3b55.bindPopup(popup_53f434e41de8ee47009ea2522aee9f5f)
+        ;
+
+        
+    
+    
+            var marker_c9827369fc82ac23b3f375f8a52a25e9 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_fd138804341d3b1cbe7dce24da20cc6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12c7af5acc798cbe8c2a9822060fa142 = $(`<div id="html_12c7af5acc798cbe8c2a9822060fa142" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_fd138804341d3b1cbe7dce24da20cc6c.setContent(html_12c7af5acc798cbe8c2a9822060fa142);
+            
+        
+
+        marker_c9827369fc82ac23b3f375f8a52a25e9.bindPopup(popup_fd138804341d3b1cbe7dce24da20cc6c)
+        ;
+
+        
+    
+    
+            var marker_fb09191cf7a2b18a5563a1f428d832bf = L.marker(
+                [7.094955741000035, -73.14061271899999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_11ceaaf859231843b2261271f724a4bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d67aa336aeae34863621fa4fccf53218 = $(`<div id="html_d67aa336aeae34863621fa4fccf53218" style="width: 100.0%; height: 100.0%;">Neighborhood: La Victoria<br>Cluster: 4</div>`)[0];
+                popup_11ceaaf859231843b2261271f724a4bd.setContent(html_d67aa336aeae34863621fa4fccf53218);
+            
+        
+
+        marker_fb09191cf7a2b18a5563a1f428d832bf.bindPopup(popup_11ceaaf859231843b2261271f724a4bd)
+        ;
+
+        
+    
+    
+            var marker_e1ec85cd3ff4f3fc896ab64b57e8c465 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_44f416e3137b343c92511fa7bb285cec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74a5a7f6fe5a8cd662aa0fa4d970b0de = $(`<div id="html_74a5a7f6fe5a8cd662aa0fa4d970b0de" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_44f416e3137b343c92511fa7bb285cec.setContent(html_74a5a7f6fe5a8cd662aa0fa4d970b0de);
+            
+        
+
+        marker_e1ec85cd3ff4f3fc896ab64b57e8c465.bindPopup(popup_44f416e3137b343c92511fa7bb285cec)
+        ;
+
+        
+    
+    
+            var marker_7b5f03fa1b65d2ec202ec28b0b4ca07d = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_02f0e3299509ca6fbc7da2a3710f1ddd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_707d9c98f1dd875f4141277f02a2f36d = $(`<div id="html_707d9c98f1dd875f4141277f02a2f36d" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_02f0e3299509ca6fbc7da2a3710f1ddd.setContent(html_707d9c98f1dd875f4141277f02a2f36d);
+            
+        
+
+        marker_7b5f03fa1b65d2ec202ec28b0b4ca07d.bindPopup(popup_02f0e3299509ca6fbc7da2a3710f1ddd)
+        ;
+
+        
+    
+    
+            var marker_080899a03f4816e1e51d921213839d55 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_fd9e2d901d2f1a2021b773b738062f60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69ed21fac7f194d39144b4fe6ce4906e = $(`<div id="html_69ed21fac7f194d39144b4fe6ce4906e" style="width: 100.0%; height: 100.0%;">Neighborhood: Mejoras Publicas<br>Cluster: 1</div>`)[0];
+                popup_fd9e2d901d2f1a2021b773b738062f60.setContent(html_69ed21fac7f194d39144b4fe6ce4906e);
+            
+        
+
+        marker_080899a03f4816e1e51d921213839d55.bindPopup(popup_fd9e2d901d2f1a2021b773b738062f60)
+        ;
+
+        
+    
+    
+            var marker_5fa434f467e59949793ffaeb83775f4f = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_274eb8ef9d2db87d66b55614c27f807b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_961497f3e6b934220fee0872a4c85230 = $(`<div id="html_961497f3e6b934220fee0872a4c85230" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_274eb8ef9d2db87d66b55614c27f807b.setContent(html_961497f3e6b934220fee0872a4c85230);
+            
+        
+
+        marker_5fa434f467e59949793ffaeb83775f4f.bindPopup(popup_274eb8ef9d2db87d66b55614c27f807b)
+        ;
+
+        
+    
+    
+            var marker_1fd796b0ad70e35cb4331b7911b1f1e7 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_5078a60a730c4968b15a5258a3bfb271 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2a1d8fdb08c3d617cf475f746cac2cc = $(`<div id="html_e2a1d8fdb08c3d617cf475f746cac2cc" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_5078a60a730c4968b15a5258a3bfb271.setContent(html_e2a1d8fdb08c3d617cf475f746cac2cc);
+            
+        
+
+        marker_1fd796b0ad70e35cb4331b7911b1f1e7.bindPopup(popup_5078a60a730c4968b15a5258a3bfb271)
+        ;
+
+        
+    
+    
+            var marker_ea70c8281460d3bd1bdcafe0a1b64dc1 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_b34254be60254fa7c11d7ef9c26d63c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34792e6f640212464b8b16c091dca05b = $(`<div id="html_34792e6f640212464b8b16c091dca05b" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_b34254be60254fa7c11d7ef9c26d63c4.setContent(html_34792e6f640212464b8b16c091dca05b);
+            
+        
+
+        marker_ea70c8281460d3bd1bdcafe0a1b64dc1.bindPopup(popup_b34254be60254fa7c11d7ef9c26d63c4)
+        ;
+
+        
+    
+    
+            var marker_2ef49e59977f75e93d411e0bb3700e2d = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_7d5d038b01669af618f473d4dbf78dce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de3fdac40fc93871b04574c246f6c963 = $(`<div id="html_de3fdac40fc93871b04574c246f6c963" style="width: 100.0%; height: 100.0%;">Neighborhood: Mutualidad<br>Cluster: 3</div>`)[0];
+                popup_7d5d038b01669af618f473d4dbf78dce.setContent(html_de3fdac40fc93871b04574c246f6c963);
+            
+        
+
+        marker_2ef49e59977f75e93d411e0bb3700e2d.bindPopup(popup_7d5d038b01669af618f473d4dbf78dce)
+        ;
+
+        
+    
+    
+            var marker_48d5d6e13436bc06f156eeaae2244282 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_6ec2ba346238b15f9cf4e883063323fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15354c0c39d8eb4d94c97294206cc207 = $(`<div id="html_15354c0c39d8eb4d94c97294206cc207" style="width: 100.0%; height: 100.0%;">Neighborhood: Norte Bajo<br>Cluster: 3</div>`)[0];
+                popup_6ec2ba346238b15f9cf4e883063323fe.setContent(html_15354c0c39d8eb4d94c97294206cc207);
+            
+        
+
+        marker_48d5d6e13436bc06f156eeaae2244282.bindPopup(popup_6ec2ba346238b15f9cf4e883063323fe)
+        ;
+
+        
+    
+    
+            var marker_f77d86d54c8df054b1a34050e432c279 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_27618da81878aab607ca5957dab7ad08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cd17de2c555870966c88f6fb99f963d = $(`<div id="html_5cd17de2c555870966c88f6fb99f963d" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_27618da81878aab607ca5957dab7ad08.setContent(html_5cd17de2c555870966c88f6fb99f963d);
+            
+        
+
+        marker_f77d86d54c8df054b1a34050e432c279.bindPopup(popup_27618da81878aab607ca5957dab7ad08)
+        ;
+
+        
+    
+    
+            var marker_810d5076ab8a2e755e9ca0a9ffd37855 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c8440d49d664889ecd4280a28b66d738 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76c0d03ab3a809a076c0d7e6a1bd2b27 = $(`<div id="html_76c0d03ab3a809a076c0d7e6a1bd2b27" style="width: 100.0%; height: 100.0%;">Neighborhood: Garcia Rovira<br>Cluster: 0</div>`)[0];
+                popup_c8440d49d664889ecd4280a28b66d738.setContent(html_76c0d03ab3a809a076c0d7e6a1bd2b27);
+            
+        
+
+        marker_810d5076ab8a2e755e9ca0a9ffd37855.bindPopup(popup_c8440d49d664889ecd4280a28b66d738)
+        ;
+
+        
+    
+    
+            var marker_247b5cac29e492fb34797338051f7d9a = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_78cddc734560d716a9f024820979eda5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7513ecc2108a160bae1596ac2bfd60a = $(`<div id="html_e7513ecc2108a160bae1596ac2bfd60a" style="width: 100.0%; height: 100.0%;">Neighborhood: Puerta del Sol<br>Cluster: 2</div>`)[0];
+                popup_78cddc734560d716a9f024820979eda5.setContent(html_e7513ecc2108a160bae1596ac2bfd60a);
+            
+        
+
+        marker_247b5cac29e492fb34797338051f7d9a.bindPopup(popup_78cddc734560d716a9f024820979eda5)
+        ;
+
+        
+    
+    
+            var marker_cb2556d908cc7e65d1e214340236db40 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_faa6ba412440abb2b6d277e856442a84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abc4e96d0e9c736ead48ab523ef973cb = $(`<div id="html_abc4e96d0e9c736ead48ab523ef973cb" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_faa6ba412440abb2b6d277e856442a84.setContent(html_abc4e96d0e9c736ead48ab523ef973cb);
+            
+        
+
+        marker_cb2556d908cc7e65d1e214340236db40.bindPopup(popup_faa6ba412440abb2b6d277e856442a84)
+        ;
+
+        
+    
+    
+            var marker_84a88f143a73165e3641e1fa90a61572 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_cad29724bc3c311b16582b6e8af1241d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a05993e6392481b02f3b5486ca47c89 = $(`<div id="html_9a05993e6392481b02f3b5486ca47c89" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_cad29724bc3c311b16582b6e8af1241d.setContent(html_9a05993e6392481b02f3b5486ca47c89);
+            
+        
+
+        marker_84a88f143a73165e3641e1fa90a61572.bindPopup(popup_cad29724bc3c311b16582b6e8af1241d)
+        ;
+
+        
+    
+    
+            var marker_42cbdf86cfd46b1337666b36c063bb92 = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_798cf3f0a417f932bd44ca1d928e886b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f6db5e9a90a41bd39fb453d8959a8ec = $(`<div id="html_0f6db5e9a90a41bd39fb453d8959a8ec" style="width: 100.0%; height: 100.0%;">Neighborhood: Provenza<br>Cluster: 4</div>`)[0];
+                popup_798cf3f0a417f932bd44ca1d928e886b.setContent(html_0f6db5e9a90a41bd39fb453d8959a8ec);
+            
+        
+
+        marker_42cbdf86cfd46b1337666b36c063bb92.bindPopup(popup_798cf3f0a417f932bd44ca1d928e886b)
+        ;
+
+        
+    
+    
+            var marker_c95c7fa9a5ba4b1aa7d51a9ff9cff034 = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_77cbc7396dcfe619f85899c6567aa387 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f43f218b83c017483d5d447e260b86e = $(`<div id="html_5f43f218b83c017483d5d447e260b86e" style="width: 100.0%; height: 100.0%;">Neighborhood: Provenza<br>Cluster: 4</div>`)[0];
+                popup_77cbc7396dcfe619f85899c6567aa387.setContent(html_5f43f218b83c017483d5d447e260b86e);
+            
+        
+
+        marker_c95c7fa9a5ba4b1aa7d51a9ff9cff034.bindPopup(popup_77cbc7396dcfe619f85899c6567aa387)
+        ;
+
+        
+    
+    
+            var marker_924e4b89fb782ccaddbc0e1a96a5f322 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_af0d138f280a6d178b3a477e536a7619 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3828becba574b356b6217a6a16ab09d5 = $(`<div id="html_3828becba574b356b6217a6a16ab09d5" style="width: 100.0%; height: 100.0%;">Neighborhood: Villa Ines<br>Cluster: 2</div>`)[0];
+                popup_af0d138f280a6d178b3a477e536a7619.setContent(html_3828becba574b356b6217a6a16ab09d5);
+            
+        
+
+        marker_924e4b89fb782ccaddbc0e1a96a5f322.bindPopup(popup_af0d138f280a6d178b3a477e536a7619)
+        ;
+
+        
+    
+    
+            var marker_2f18c7936ff744e607d68e4f2e31bbb4 = L.marker(
+                [7.124118112000076, -73.14241090399997],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c4da29490268d6d37b9557d793e14bce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59f64bcfdce4cae8d32e9208a4985034 = $(`<div id="html_59f64bcfdce4cae8d32e9208a4985034" style="width: 100.0%; height: 100.0%;">Neighborhood: Granada<br>Cluster: 0</div>`)[0];
+                popup_c4da29490268d6d37b9557d793e14bce.setContent(html_59f64bcfdce4cae8d32e9208a4985034);
+            
+        
+
+        marker_2f18c7936ff744e607d68e4f2e31bbb4.bindPopup(popup_c4da29490268d6d37b9557d793e14bce)
+        ;
+
+        
+    
+    
+            var marker_f7633186a1b18780882d12b9ba82d284 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_ec8fd3c2e99547481c2982d2c1003c5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79e682291c5723ff77b991f38161570e = $(`<div id="html_79e682291c5723ff77b991f38161570e" style="width: 100.0%; height: 100.0%;">Neighborhood: La Concordia<br>Cluster: 2</div>`)[0];
+                popup_ec8fd3c2e99547481c2982d2c1003c5b.setContent(html_79e682291c5723ff77b991f38161570e);
+            
+        
+
+        marker_f7633186a1b18780882d12b9ba82d284.bindPopup(popup_ec8fd3c2e99547481c2982d2c1003c5b)
+        ;
+
+        
+    
+    
+            var marker_69510626aca22c3bdd92630be18aa9fb = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_5fb1570a9b7b4ba3bab6593066ee1137 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b05f1fe3cbfea9df843feaa428e55c7e = $(`<div id="html_b05f1fe3cbfea9df843feaa428e55c7e" style="width: 100.0%; height: 100.0%;">Neighborhood: Puerta del Sol<br>Cluster: 2</div>`)[0];
+                popup_5fb1570a9b7b4ba3bab6593066ee1137.setContent(html_b05f1fe3cbfea9df843feaa428e55c7e);
+            
+        
+
+        marker_69510626aca22c3bdd92630be18aa9fb.bindPopup(popup_5fb1570a9b7b4ba3bab6593066ee1137)
+        ;
+
+        
+    
+    
+            var marker_7311c55f568b28a73e402f9083bf484d = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_186bf43db40f732d308dfd6a4c51d3a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a573ecd6cfcc145827233e4375d38de9 = $(`<div id="html_a573ecd6cfcc145827233e4375d38de9" style="width: 100.0%; height: 100.0%;">Neighborhood: Comuneros<br>Cluster: 3</div>`)[0];
+                popup_186bf43db40f732d308dfd6a4c51d3a1.setContent(html_a573ecd6cfcc145827233e4375d38de9);
+            
+        
+
+        marker_7311c55f568b28a73e402f9083bf484d.bindPopup(popup_186bf43db40f732d308dfd6a4c51d3a1)
+        ;
+
+        
+    
+    
+            var marker_aa8a5e89b2bf64b83ba42996e00d0361 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_02c7a59f075e86843c2781aa28be10fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0e7d65f90f472144170c92ba67f395f = $(`<div id="html_b0e7d65f90f472144170c92ba67f395f" style="width: 100.0%; height: 100.0%;">Neighborhood: Alarcon<br>Cluster: 1</div>`)[0];
+                popup_02c7a59f075e86843c2781aa28be10fd.setContent(html_b0e7d65f90f472144170c92ba67f395f);
+            
+        
+
+        marker_aa8a5e89b2bf64b83ba42996e00d0361.bindPopup(popup_02c7a59f075e86843c2781aa28be10fd)
+        ;
+
+        
+    
+    
+            var marker_d7960108c0fd2ad00d15eec4ff78f89a = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_699bf4bd8a4123359546dfd3acc0bc6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40d956538a63418ab414053bc44a79e9 = $(`<div id="html_40d956538a63418ab414053bc44a79e9" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_699bf4bd8a4123359546dfd3acc0bc6b.setContent(html_40d956538a63418ab414053bc44a79e9);
+            
+        
+
+        marker_d7960108c0fd2ad00d15eec4ff78f89a.bindPopup(popup_699bf4bd8a4123359546dfd3acc0bc6b)
+        ;
+
+        
+    
+    
+            var marker_66dd3bb6daa1e751cbe354a4c0aa5686 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_d06dfb95b59c5fafc36687eb14903c2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_123b2e792470fba54e1c3badf8e357fe = $(`<div id="html_123b2e792470fba54e1c3badf8e357fe" style="width: 100.0%; height: 100.0%;">Neighborhood: La Concordia<br>Cluster: 2</div>`)[0];
+                popup_d06dfb95b59c5fafc36687eb14903c2c.setContent(html_123b2e792470fba54e1c3badf8e357fe);
+            
+        
+
+        marker_66dd3bb6daa1e751cbe354a4c0aa5686.bindPopup(popup_d06dfb95b59c5fafc36687eb14903c2c)
+        ;
+
+        
+    
+    
+            var marker_b7a1593681bc8918757a97ab6e07dba6 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_405b2c0841ba9e8203d555dafa5f9e58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5abb5e97d99380bb5041d273f3d4b04b = $(`<div id="html_5abb5e97d99380bb5041d273f3d4b04b" style="width: 100.0%; height: 100.0%;">Neighborhood: Alfonso Lopez<br>Cluster: 0</div>`)[0];
+                popup_405b2c0841ba9e8203d555dafa5f9e58.setContent(html_5abb5e97d99380bb5041d273f3d4b04b);
+            
+        
+
+        marker_b7a1593681bc8918757a97ab6e07dba6.bindPopup(popup_405b2c0841ba9e8203d555dafa5f9e58)
+        ;
+
+        
+    
+    
+            var marker_c9d2c38d928bccd639b13be671d90afd = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_9c1897e4f492ba07972488d42532c4cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f4e45bf106e527bd22c65e82c38d79d = $(`<div id="html_6f4e45bf106e527bd22c65e82c38d79d" style="width: 100.0%; height: 100.0%;">Neighborhood: La Salle<br>Cluster: 2</div>`)[0];
+                popup_9c1897e4f492ba07972488d42532c4cb.setContent(html_6f4e45bf106e527bd22c65e82c38d79d);
+            
+        
+
+        marker_c9d2c38d928bccd639b13be671d90afd.bindPopup(popup_9c1897e4f492ba07972488d42532c4cb)
+        ;
+
+        
+    
+    
+            var marker_15534541a4e83b93113a834d0b18c581 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_cfe5eb81647cccd5804850df01be71c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0fc158ad18cc1c4479cc897bd5d64c9 = $(`<div id="html_a0fc158ad18cc1c4479cc897bd5d64c9" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_cfe5eb81647cccd5804850df01be71c6.setContent(html_a0fc158ad18cc1c4479cc897bd5d64c9);
+            
+        
+
+        marker_15534541a4e83b93113a834d0b18c581.bindPopup(popup_cfe5eb81647cccd5804850df01be71c6)
+        ;
+
+        
+    
+    
+            var marker_f7af10da0df59ef6dc6023690716dae4 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_38e61903f50de8cc4a47a377596f382b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb728ba907f75d9e40f2de031c66ad37 = $(`<div id="html_eb728ba907f75d9e40f2de031c66ad37" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_38e61903f50de8cc4a47a377596f382b.setContent(html_eb728ba907f75d9e40f2de031c66ad37);
+            
+        
+
+        marker_f7af10da0df59ef6dc6023690716dae4.bindPopup(popup_38e61903f50de8cc4a47a377596f382b)
+        ;
+
+        
+    
+    
+            var marker_4518677c7074b2157af3ffaf55d45dce = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_39dda2672bba7ad992b0fa63be604eea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2223b265048fbd0084ce731876768926 = $(`<div id="html_2223b265048fbd0084ce731876768926" style="width: 100.0%; height: 100.0%;">Neighborhood: Girardot<br>Cluster: 0</div>`)[0];
+                popup_39dda2672bba7ad992b0fa63be604eea.setContent(html_2223b265048fbd0084ce731876768926);
+            
+        
+
+        marker_4518677c7074b2157af3ffaf55d45dce.bindPopup(popup_39dda2672bba7ad992b0fa63be604eea)
+        ;
+
+        
+    
+    
+            var marker_4bc1f0916f91a165aac9b1954091577e = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_3a4e3e1071a5f73926b53e416748bbfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ddd1aa2bf471256e9343275b86bd4be = $(`<div id="html_5ddd1aa2bf471256e9343275b86bd4be" style="width: 100.0%; height: 100.0%;">Neighborhood: Girardot<br>Cluster: 0</div>`)[0];
+                popup_3a4e3e1071a5f73926b53e416748bbfa.setContent(html_5ddd1aa2bf471256e9343275b86bd4be);
+            
+        
+
+        marker_4bc1f0916f91a165aac9b1954091577e.bindPopup(popup_3a4e3e1071a5f73926b53e416748bbfa)
+        ;
+
+        
+    
+    
+            var marker_64dabc65c6298f260759993ecef45ace = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_e79ae04149fe0a361305442253a3a812 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e704f1d8be7a0e70cf8da8aa99154fbf = $(`<div id="html_e704f1d8be7a0e70cf8da8aa99154fbf" style="width: 100.0%; height: 100.0%;">Neighborhood: Modelo<br>Cluster: 3</div>`)[0];
+                popup_e79ae04149fe0a361305442253a3a812.setContent(html_e704f1d8be7a0e70cf8da8aa99154fbf);
+            
+        
+
+        marker_64dabc65c6298f260759993ecef45ace.bindPopup(popup_e79ae04149fe0a361305442253a3a812)
+        ;
+
+        
+    
+    
+            var marker_e3da0a90511c22477837924180e34b0c = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_51b5aae0f79489f606aff1dd6da71073 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfd8da2136dc0310a32982e920d53a66 = $(`<div id="html_cfd8da2136dc0310a32982e920d53a66" style="width: 100.0%; height: 100.0%;">Neighborhood: Conucos<br>Cluster: 2</div>`)[0];
+                popup_51b5aae0f79489f606aff1dd6da71073.setContent(html_cfd8da2136dc0310a32982e920d53a66);
+            
+        
+
+        marker_e3da0a90511c22477837924180e34b0c.bindPopup(popup_51b5aae0f79489f606aff1dd6da71073)
+        ;
+
+        
+    
+    
+            var marker_6bf07188a34056db8d32fbd54b855c7f = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_febc88e3769df96b320d8a6fdbdf86c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39ac22773385a62362ea4f93b4774906 = $(`<div id="html_39ac22773385a62362ea4f93b4774906" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_febc88e3769df96b320d8a6fdbdf86c6.setContent(html_39ac22773385a62362ea4f93b4774906);
+            
+        
+
+        marker_6bf07188a34056db8d32fbd54b855c7f.bindPopup(popup_febc88e3769df96b320d8a6fdbdf86c6)
+        ;
+
+        
+    
+    
+            var marker_c40bb77e9dfd158be0c494c711c6117c = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_180f044141ebed0314a83be93aad819f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71d754e442e3daf9d8c325589799a479 = $(`<div id="html_71d754e442e3daf9d8c325589799a479" style="width: 100.0%; height: 100.0%;">Neighborhood: Sotomayor<br>Cluster: 1</div>`)[0];
+                popup_180f044141ebed0314a83be93aad819f.setContent(html_71d754e442e3daf9d8c325589799a479);
+            
+        
+
+        marker_c40bb77e9dfd158be0c494c711c6117c.bindPopup(popup_180f044141ebed0314a83be93aad819f)
+        ;
+
+        
+    
+    
+            var marker_a32468de00633e939d419b55328ff3ec = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_a07a9a65fa6d55523be5409dececfc2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9ba947a397a8b59ceeed304b3e38400 = $(`<div id="html_c9ba947a397a8b59ceeed304b3e38400" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_a07a9a65fa6d55523be5409dececfc2a.setContent(html_c9ba947a397a8b59ceeed304b3e38400);
+            
+        
+
+        marker_a32468de00633e939d419b55328ff3ec.bindPopup(popup_a07a9a65fa6d55523be5409dececfc2a)
+        ;
+
+        
+    
+    
+            var marker_86e0d6b123423669f80e6a033c15a120 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_7e2ca34ea851f7513a27e977ac9ecb0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ca47425bc180b4b5a4b4aa7c0c1f6af = $(`<div id="html_5ca47425bc180b4b5a4b4aa7c0c1f6af" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_7e2ca34ea851f7513a27e977ac9ecb0c.setContent(html_5ca47425bc180b4b5a4b4aa7c0c1f6af);
+            
+        
+
+        marker_86e0d6b123423669f80e6a033c15a120.bindPopup(popup_7e2ca34ea851f7513a27e977ac9ecb0c)
+        ;
+
+        
+    
+    
+            var marker_bd81527f7e616bb0f1d3b547bc9a5657 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_aace61960df74793ed22a19aeb4b314f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7ae0c62b3595fd7a972b6364dd39054 = $(`<div id="html_b7ae0c62b3595fd7a972b6364dd39054" style="width: 100.0%; height: 100.0%;">Neighborhood: Lagos del Cacique<br>Cluster: 2</div>`)[0];
+                popup_aace61960df74793ed22a19aeb4b314f.setContent(html_b7ae0c62b3595fd7a972b6364dd39054);
+            
+        
+
+        marker_bd81527f7e616bb0f1d3b547bc9a5657.bindPopup(popup_aace61960df74793ed22a19aeb4b314f)
+        ;
+
+        
+    
+    
+            var marker_acffec6bcae87003078ce281f96643ec = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_449ce4ff1809a38f6c08d82d83850762 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf7c113922892a35a399cad17d5d57a3 = $(`<div id="html_cf7c113922892a35a399cad17d5d57a3" style="width: 100.0%; height: 100.0%;">Neighborhood: Comuneros<br>Cluster: 3</div>`)[0];
+                popup_449ce4ff1809a38f6c08d82d83850762.setContent(html_cf7c113922892a35a399cad17d5d57a3);
+            
+        
+
+        marker_acffec6bcae87003078ce281f96643ec.bindPopup(popup_449ce4ff1809a38f6c08d82d83850762)
+        ;
+
+        
+    
+    
+            var marker_f8f89c12efa4a34265948ba0ca7d4092 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_1f514c1708de6bf75e94791be1763618 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfd51137f0edaf73c6bd4971a1656fd0 = $(`<div id="html_dfd51137f0edaf73c6bd4971a1656fd0" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_1f514c1708de6bf75e94791be1763618.setContent(html_dfd51137f0edaf73c6bd4971a1656fd0);
+            
+        
+
+        marker_f8f89c12efa4a34265948ba0ca7d4092.bindPopup(popup_1f514c1708de6bf75e94791be1763618)
+        ;
+
+        
+    
+    
+            var marker_96cc419b623ea2ba76048d42f75a419b = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_27e92314987775fb0628a7de4555d157 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee38b336a2b5ca1cb1cf3bed3a781413 = $(`<div id="html_ee38b336a2b5ca1cb1cf3bed3a781413" style="width: 100.0%; height: 100.0%;">Neighborhood: Campo Hermoso<br>Cluster: 0</div>`)[0];
+                popup_27e92314987775fb0628a7de4555d157.setContent(html_ee38b336a2b5ca1cb1cf3bed3a781413);
+            
+        
+
+        marker_96cc419b623ea2ba76048d42f75a419b.bindPopup(popup_27e92314987775fb0628a7de4555d157)
+        ;
+
+        
+    
+    
+            var marker_f6fea7498e38a69927aae7d6b9873a70 = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_43a475affb9bb3b18e7c5121d25f2c40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4967928decd1dc506032769ccd279c29 = $(`<div id="html_4967928decd1dc506032769ccd279c29" style="width: 100.0%; height: 100.0%;">Neighborhood: Provenza<br>Cluster: 4</div>`)[0];
+                popup_43a475affb9bb3b18e7c5121d25f2c40.setContent(html_4967928decd1dc506032769ccd279c29);
+            
+        
+
+        marker_f6fea7498e38a69927aae7d6b9873a70.bindPopup(popup_43a475affb9bb3b18e7c5121d25f2c40)
+        ;
+
+        
+    
+    
+            var marker_abab719af76f99f7a623296b2a8205c4 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c04f1d7be383b3490b960fa9f9634f53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fc94b76ac107c2f604b8d21d6d3b488 = $(`<div id="html_1fc94b76ac107c2f604b8d21d6d3b488" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_c04f1d7be383b3490b960fa9f9634f53.setContent(html_1fc94b76ac107c2f604b8d21d6d3b488);
+            
+        
+
+        marker_abab719af76f99f7a623296b2a8205c4.bindPopup(popup_c04f1d7be383b3490b960fa9f9634f53)
+        ;
+
+        
+    
+    
+            var marker_f1766de03ce2b97b311f15940ecd85c8 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_56a30b6306cac48e60d62fe62f85abdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70a7089b1e57b1d0978b3d90e23bc502 = $(`<div id="html_70a7089b1e57b1d0978b3d90e23bc502" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_56a30b6306cac48e60d62fe62f85abdf.setContent(html_70a7089b1e57b1d0978b3d90e23bc502);
+            
+        
+
+        marker_f1766de03ce2b97b311f15940ecd85c8.bindPopup(popup_56a30b6306cac48e60d62fe62f85abdf)
+        ;
+
+        
+    
+    
+            var marker_a29caf68bb4f154996f40e93dd877af1 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c84e15538d85084b503a4f5017ca3840 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_291441a8e1095ad3a3e5efa7504afefa = $(`<div id="html_291441a8e1095ad3a3e5efa7504afefa" style="width: 100.0%; height: 100.0%;">Neighborhood: Universidad<br>Cluster: 1</div>`)[0];
+                popup_c84e15538d85084b503a4f5017ca3840.setContent(html_291441a8e1095ad3a3e5efa7504afefa);
+            
+        
+
+        marker_a29caf68bb4f154996f40e93dd877af1.bindPopup(popup_c84e15538d85084b503a4f5017ca3840)
+        ;
+
+        
+    
+    
+            var marker_5f0818677881faf55437065b66a3a512 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_e36722d859897b1a179b8ec9d2ab2777 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea7e5e4fb0c36c4dd6509ead6bc4f36e = $(`<div id="html_ea7e5e4fb0c36c4dd6509ead6bc4f36e" style="width: 100.0%; height: 100.0%;">Neighborhood: Olas Bajas<br>Cluster: 3</div>`)[0];
+                popup_e36722d859897b1a179b8ec9d2ab2777.setContent(html_ea7e5e4fb0c36c4dd6509ead6bc4f36e);
+            
+        
+
+        marker_5f0818677881faf55437065b66a3a512.bindPopup(popup_e36722d859897b1a179b8ec9d2ab2777)
+        ;
+
+        
+    
+    
+            var marker_3b3ba65b8a1c1302f45e54e80fe72486 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_6b696432f4c5892a093d508a6a4a9c8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34e6e441955f5024d8226691477f3b06 = $(`<div id="html_34e6e441955f5024d8226691477f3b06" style="width: 100.0%; height: 100.0%;">Neighborhood: Morrorico<br>Cluster: 1</div>`)[0];
+                popup_6b696432f4c5892a093d508a6a4a9c8d.setContent(html_34e6e441955f5024d8226691477f3b06);
+            
+        
+
+        marker_3b3ba65b8a1c1302f45e54e80fe72486.bindPopup(popup_6b696432f4c5892a093d508a6a4a9c8d)
+        ;
+
+        
+    
+    
+            var marker_fc19f99eab3caf9e81e36077c6a3d339 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_ccb355ca2abdfc33baef7c67afb07004 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1412ce8d08d0742d11d9b78d415e011a = $(`<div id="html_1412ce8d08d0742d11d9b78d415e011a" style="width: 100.0%; height: 100.0%;">Neighborhood: Mercedes<br>Cluster: 0</div>`)[0];
+                popup_ccb355ca2abdfc33baef7c67afb07004.setContent(html_1412ce8d08d0742d11d9b78d415e011a);
+            
+        
+
+        marker_fc19f99eab3caf9e81e36077c6a3d339.bindPopup(popup_ccb355ca2abdfc33baef7c67afb07004)
+        ;
+
+        
+    
+    
+            var marker_1070757ec9f002e7bed34e28d5b63de9 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_d87557bb52b6f20f62a3c9387216c9c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61fb23158ce4671a195c0478ebcd8ded = $(`<div id="html_61fb23158ce4671a195c0478ebcd8ded" style="width: 100.0%; height: 100.0%;">Neighborhood: San Rafael<br>Cluster: 3</div>`)[0];
+                popup_d87557bb52b6f20f62a3c9387216c9c7.setContent(html_61fb23158ce4671a195c0478ebcd8ded);
+            
+        
+
+        marker_1070757ec9f002e7bed34e28d5b63de9.bindPopup(popup_d87557bb52b6f20f62a3c9387216c9c7)
+        ;
+
+        
+    
+    
+            var marker_dfb12f7fdb8a50606a5d42fc54b66961 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_197923af48af59241394eb768e186159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eee219580c81915eb2fcc0b139917cec = $(`<div id="html_eee219580c81915eb2fcc0b139917cec" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_197923af48af59241394eb768e186159.setContent(html_eee219580c81915eb2fcc0b139917cec);
+            
+        
+
+        marker_dfb12f7fdb8a50606a5d42fc54b66961.bindPopup(popup_197923af48af59241394eb768e186159)
+        ;
+
+        
+    
+    
+            var marker_3a0089386d0610176a90b6c90f6f8277 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_16abcc1b275d1ba95fa982e5f41d12a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f4bf300a2dfaeaae4b6db0fa9c9868e = $(`<div id="html_9f4bf300a2dfaeaae4b6db0fa9c9868e" style="width: 100.0%; height: 100.0%;">Neighborhood: Cafe Madrid<br>Cluster: 3</div>`)[0];
+                popup_16abcc1b275d1ba95fa982e5f41d12a0.setContent(html_9f4bf300a2dfaeaae4b6db0fa9c9868e);
+            
+        
+
+        marker_3a0089386d0610176a90b6c90f6f8277.bindPopup(popup_16abcc1b275d1ba95fa982e5f41d12a0)
+        ;
+
+        
+    
+    
+            var marker_750d197a84c6d91414b669b981844425 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c0995fe7ed717e30bb3f6a05ad7509de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b890d9630bd2ecf5d0d99fcad64bdb88 = $(`<div id="html_b890d9630bd2ecf5d0d99fcad64bdb88" style="width: 100.0%; height: 100.0%;">Neighborhood: Universidad<br>Cluster: 1</div>`)[0];
+                popup_c0995fe7ed717e30bb3f6a05ad7509de.setContent(html_b890d9630bd2ecf5d0d99fcad64bdb88);
+            
+        
+
+        marker_750d197a84c6d91414b669b981844425.bindPopup(popup_c0995fe7ed717e30bb3f6a05ad7509de)
+        ;
+
+        
+    
+    
+            var marker_e3fb3c264dff72d210946ba61bd2408a = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_0bb3c251ca9cae8b6e109877f1b1e331 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a834268b4d2e6511d0be14df9f5db40 = $(`<div id="html_2a834268b4d2e6511d0be14df9f5db40" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_0bb3c251ca9cae8b6e109877f1b1e331.setContent(html_2a834268b4d2e6511d0be14df9f5db40);
+            
+        
+
+        marker_e3fb3c264dff72d210946ba61bd2408a.bindPopup(popup_0bb3c251ca9cae8b6e109877f1b1e331)
+        ;
+
+        
+    
+    
+            var marker_3554fcf34ed2b98c450765d76aeb421a = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_fccd57845f7e45867816bf9d78cc6e74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c99a6cabe15c4291e0f69ee865ae6f7 = $(`<div id="html_9c99a6cabe15c4291e0f69ee865ae6f7" style="width: 100.0%; height: 100.0%;">Neighborhood: Gaitan<br>Cluster: 3</div>`)[0];
+                popup_fccd57845f7e45867816bf9d78cc6e74.setContent(html_9c99a6cabe15c4291e0f69ee865ae6f7);
+            
+        
+
+        marker_3554fcf34ed2b98c450765d76aeb421a.bindPopup(popup_fccd57845f7e45867816bf9d78cc6e74)
+        ;
+
+        
+    
+    
+            var marker_b4c971e75428e6e87e2d89041730f6f0 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_218497c7f35fe7bb391195af40972ed4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ccf933c5fb32ce4abc19af78917ae73 = $(`<div id="html_2ccf933c5fb32ce4abc19af78917ae73" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_218497c7f35fe7bb391195af40972ed4.setContent(html_2ccf933c5fb32ce4abc19af78917ae73);
+            
+        
+
+        marker_b4c971e75428e6e87e2d89041730f6f0.bindPopup(popup_218497c7f35fe7bb391195af40972ed4)
+        ;
+
+        
+    
+    
+            var marker_9b7e0484ab41b7f55e4886ddfa6cd43b = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_f580234421086b81ea2433ec6be079e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f3f5c95ea45351cd338bce84dfb576a = $(`<div id="html_6f3f5c95ea45351cd338bce84dfb576a" style="width: 100.0%; height: 100.0%;">Neighborhood: El Prado<br>Cluster: 1</div>`)[0];
+                popup_f580234421086b81ea2433ec6be079e9.setContent(html_6f3f5c95ea45351cd338bce84dfb576a);
+            
+        
+
+        marker_9b7e0484ab41b7f55e4886ddfa6cd43b.bindPopup(popup_f580234421086b81ea2433ec6be079e9)
+        ;
+
+        
+    
+    
+            var marker_af15532fe62e38e80d4f162ab1fe6553 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_d409c6a377f7ebdbd2fa206b208499d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f23d5be4f914e5a9bf92423b597d8aaf = $(`<div id="html_f23d5be4f914e5a9bf92423b597d8aaf" style="width: 100.0%; height: 100.0%;">Neighborhood: Kennedy<br>Cluster: 3</div>`)[0];
+                popup_d409c6a377f7ebdbd2fa206b208499d0.setContent(html_f23d5be4f914e5a9bf92423b597d8aaf);
+            
+        
+
+        marker_af15532fe62e38e80d4f162ab1fe6553.bindPopup(popup_d409c6a377f7ebdbd2fa206b208499d0)
+        ;
+
+        
+    
+    
+            var marker_2cc1efe464ce16d95059d767d55520eb = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_59f70ba6813e6303acb934cf08102329 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68a8c22d2b491a8eb60476ee61f8d43b = $(`<div id="html_68a8c22d2b491a8eb60476ee61f8d43b" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_59f70ba6813e6303acb934cf08102329.setContent(html_68a8c22d2b491a8eb60476ee61f8d43b);
+            
+        
+
+        marker_2cc1efe464ce16d95059d767d55520eb.bindPopup(popup_59f70ba6813e6303acb934cf08102329)
+        ;
+
+        
+    
+    
+            var marker_8d7569a7720be3008ffc59d98dc20aff = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_d82c1e11e5babc397899df3fe14cf65a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9fd3353b9b56adf7999cb7db8b9f36d = $(`<div id="html_c9fd3353b9b56adf7999cb7db8b9f36d" style="width: 100.0%; height: 100.0%;">Neighborhood: Kennedy<br>Cluster: 3</div>`)[0];
+                popup_d82c1e11e5babc397899df3fe14cf65a.setContent(html_c9fd3353b9b56adf7999cb7db8b9f36d);
+            
+        
+
+        marker_8d7569a7720be3008ffc59d98dc20aff.bindPopup(popup_d82c1e11e5babc397899df3fe14cf65a)
+        ;
+
+        
+    
+    
+            var marker_9baa2af523b144fda0a305899147873a = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_2243edfdd01f975319050455d834a3d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a701886eb1278c2d91f9e83faf0ac8cd = $(`<div id="html_a701886eb1278c2d91f9e83faf0ac8cd" style="width: 100.0%; height: 100.0%;">Neighborhood: San Rafael<br>Cluster: 3</div>`)[0];
+                popup_2243edfdd01f975319050455d834a3d3.setContent(html_a701886eb1278c2d91f9e83faf0ac8cd);
+            
+        
+
+        marker_9baa2af523b144fda0a305899147873a.bindPopup(popup_2243edfdd01f975319050455d834a3d3)
+        ;
+
+        
+    
+    
+            var marker_3f6a88175c03114fdcbbbaae598f7db4 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_415c772ced42564a786911a4924ccc03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67dbedbae7ba4021e70b0ac80f7d590e = $(`<div id="html_67dbedbae7ba4021e70b0ac80f7d590e" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_415c772ced42564a786911a4924ccc03.setContent(html_67dbedbae7ba4021e70b0ac80f7d590e);
+            
+        
+
+        marker_3f6a88175c03114fdcbbbaae598f7db4.bindPopup(popup_415c772ced42564a786911a4924ccc03)
+        ;
+
+        
+    
+    
+            var marker_94713838095e5ac4bb634eeb10f79459 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_f65b57108b7f83f9c3717f34de7a9c42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22285a44cb13460dbf7b1158882e0db3 = $(`<div id="html_22285a44cb13460dbf7b1158882e0db3" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_f65b57108b7f83f9c3717f34de7a9c42.setContent(html_22285a44cb13460dbf7b1158882e0db3);
+            
+        
+
+        marker_94713838095e5ac4bb634eeb10f79459.bindPopup(popup_f65b57108b7f83f9c3717f34de7a9c42)
+        ;
+
+        
+    
+    
+            var marker_47fce3fcf13316b059fe031cdef6e3cd = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_d8f24925331b1289b0f80929249a3794 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dde540e603217fb17c87e5fbb2c2561 = $(`<div id="html_2dde540e603217fb17c87e5fbb2c2561" style="width: 100.0%; height: 100.0%;">Neighborhood: Bolarqui<br>Cluster: 2</div>`)[0];
+                popup_d8f24925331b1289b0f80929249a3794.setContent(html_2dde540e603217fb17c87e5fbb2c2561);
+            
+        
+
+        marker_47fce3fcf13316b059fe031cdef6e3cd.bindPopup(popup_d8f24925331b1289b0f80929249a3794)
+        ;
+
+        
+    
+    
+            var marker_bb428d94e73a68506bc001df9180fed9 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_8297e5408e60e7ba45df1d97255673af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ece0519278c1e04659a965fd219c504 = $(`<div id="html_0ece0519278c1e04659a965fd219c504" style="width: 100.0%; height: 100.0%;">Neighborhood: Gaitan<br>Cluster: 3</div>`)[0];
+                popup_8297e5408e60e7ba45df1d97255673af.setContent(html_0ece0519278c1e04659a965fd219c504);
+            
+        
+
+        marker_bb428d94e73a68506bc001df9180fed9.bindPopup(popup_8297e5408e60e7ba45df1d97255673af)
+        ;
+
+        
+    
+    
+            var marker_cfcd4738c9dd31216aaf3d7f550efe77 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_0fb70abec73d93ce5f894e83cc48ee87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e7ca26fe88d89e7a538504562a0d7e2 = $(`<div id="html_7e7ca26fe88d89e7a538504562a0d7e2" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_0fb70abec73d93ce5f894e83cc48ee87.setContent(html_7e7ca26fe88d89e7a538504562a0d7e2);
+            
+        
+
+        marker_cfcd4738c9dd31216aaf3d7f550efe77.bindPopup(popup_0fb70abec73d93ce5f894e83cc48ee87)
+        ;
+
+        
+    
+    
+            var marker_85d4f39320a00ef39c799cc86a330244 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_1958511b09c1fb2592c7a773b81e8700 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55f5d0b4aeec509e1cc99b6a7981672a = $(`<div id="html_55f5d0b4aeec509e1cc99b6a7981672a" style="width: 100.0%; height: 100.0%;">Neighborhood: La Floresta<br>Cluster: 2</div>`)[0];
+                popup_1958511b09c1fb2592c7a773b81e8700.setContent(html_55f5d0b4aeec509e1cc99b6a7981672a);
+            
+        
+
+        marker_85d4f39320a00ef39c799cc86a330244.bindPopup(popup_1958511b09c1fb2592c7a773b81e8700)
+        ;
+
+        
+    
+    
+            var marker_3b40466d245bb77cd8722eb24dbccee9 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_e6f95eb0b86b4630c008d5156178c519 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10755051e25db58f0664a5c9ffa7274d = $(`<div id="html_10755051e25db58f0664a5c9ffa7274d" style="width: 100.0%; height: 100.0%;">Neighborhood: Conucos<br>Cluster: 2</div>`)[0];
+                popup_e6f95eb0b86b4630c008d5156178c519.setContent(html_10755051e25db58f0664a5c9ffa7274d);
+            
+        
+
+        marker_3b40466d245bb77cd8722eb24dbccee9.bindPopup(popup_e6f95eb0b86b4630c008d5156178c519)
+        ;
+
+        
+    
+    
+            var marker_76ff1035598e028d551a6ae8fd9a91c2 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_8ce4af2808c1284d7dae2f85480af710 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89792b60ec87ce7c1db2faac3ea99b3d = $(`<div id="html_89792b60ec87ce7c1db2faac3ea99b3d" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_8ce4af2808c1284d7dae2f85480af710.setContent(html_89792b60ec87ce7c1db2faac3ea99b3d);
+            
+        
+
+        marker_76ff1035598e028d551a6ae8fd9a91c2.bindPopup(popup_8ce4af2808c1284d7dae2f85480af710)
+        ;
+
+        
+    
+    
+            var marker_dc68a0835a3cfc64810b89f444527aa6 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_e7897948266def957622dbfec6e0c3aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcb5eb66fe531d746a45ea050790916d = $(`<div id="html_bcb5eb66fe531d746a45ea050790916d" style="width: 100.0%; height: 100.0%;">Neighborhood: Bolarqui<br>Cluster: 2</div>`)[0];
+                popup_e7897948266def957622dbfec6e0c3aa.setContent(html_bcb5eb66fe531d746a45ea050790916d);
+            
+        
+
+        marker_dc68a0835a3cfc64810b89f444527aa6.bindPopup(popup_e7897948266def957622dbfec6e0c3aa)
+        ;
+
+        
+    
+    
+            var marker_ad0f6bc18cf5cd80003e439a9d225fab = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_dec3f4b86fd2365e5a97e2e58fc53b6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_670328666d05efa560982abacb3ad407 = $(`<div id="html_670328666d05efa560982abacb3ad407" style="width: 100.0%; height: 100.0%;">Neighborhood: Pan de Azucar<br>Cluster: 2</div>`)[0];
+                popup_dec3f4b86fd2365e5a97e2e58fc53b6f.setContent(html_670328666d05efa560982abacb3ad407);
+            
+        
+
+        marker_ad0f6bc18cf5cd80003e439a9d225fab.bindPopup(popup_dec3f4b86fd2365e5a97e2e58fc53b6f)
+        ;
+
+        
+    
+    
+            var marker_aef6ff52546de4fc9ac7b8390f12429d = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_10e900fe88e710b37b12d5aff8adf01e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6afd5a43a490a8953bdce4b9fd0a5f52 = $(`<div id="html_6afd5a43a490a8953bdce4b9fd0a5f52" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_10e900fe88e710b37b12d5aff8adf01e.setContent(html_6afd5a43a490a8953bdce4b9fd0a5f52);
+            
+        
+
+        marker_aef6ff52546de4fc9ac7b8390f12429d.bindPopup(popup_10e900fe88e710b37b12d5aff8adf01e)
+        ;
+
+        
+    
+    
+            var marker_a94774e692dfc077dce21bb575736b79 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_2564cec257a158778f677d5a37256e7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e869bf4d4ef5482d9a73069481598724 = $(`<div id="html_e869bf4d4ef5482d9a73069481598724" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_2564cec257a158778f677d5a37256e7c.setContent(html_e869bf4d4ef5482d9a73069481598724);
+            
+        
+
+        marker_a94774e692dfc077dce21bb575736b79.bindPopup(popup_2564cec257a158778f677d5a37256e7c)
+        ;
+
+        
+    
+    
+            var marker_8acb7e13fa5012cce32fcbe2d3378db1 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_da99131ef133b3f089a5e8a0efee03a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20c372e780a400a0d727139c7ca10aec = $(`<div id="html_20c372e780a400a0d727139c7ca10aec" style="width: 100.0%; height: 100.0%;">Neighborhood: Sotomayor<br>Cluster: 1</div>`)[0];
+                popup_da99131ef133b3f089a5e8a0efee03a7.setContent(html_20c372e780a400a0d727139c7ca10aec);
+            
+        
+
+        marker_8acb7e13fa5012cce32fcbe2d3378db1.bindPopup(popup_da99131ef133b3f089a5e8a0efee03a7)
+        ;
+
+        
+    
+    
+            var marker_f717a8d65b0387fba67e829daf4df8da = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c044aab6b8956c8399a0f5c31eead727 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46de8e50079449168e0275c6d36fb7a9 = $(`<div id="html_46de8e50079449168e0275c6d36fb7a9" style="width: 100.0%; height: 100.0%;">Neighborhood: Comuneros<br>Cluster: 3</div>`)[0];
+                popup_c044aab6b8956c8399a0f5c31eead727.setContent(html_46de8e50079449168e0275c6d36fb7a9);
+            
+        
+
+        marker_f717a8d65b0387fba67e829daf4df8da.bindPopup(popup_c044aab6b8956c8399a0f5c31eead727)
+        ;
+
+        
+    
+    
+            var marker_7dfa325a9d68118efe01188c509b7637 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c17011143c566d5c69c7fd1e54611613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c0d61ed379ce8047436e8533c4c049f = $(`<div id="html_0c0d61ed379ce8047436e8533c4c049f" style="width: 100.0%; height: 100.0%;">Neighborhood: Chapinero<br>Cluster: 3</div>`)[0];
+                popup_c17011143c566d5c69c7fd1e54611613.setContent(html_0c0d61ed379ce8047436e8533c4c049f);
+            
+        
+
+        marker_7dfa325a9d68118efe01188c509b7637.bindPopup(popup_c17011143c566d5c69c7fd1e54611613)
+        ;
+
+        
+    
+    
+            var marker_d954b1e1207a375e029addd6fe63c180 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_1b19fdc94f36d8c42748643f13704a81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2047616348fea4660d33433546c01fad = $(`<div id="html_2047616348fea4660d33433546c01fad" style="width: 100.0%; height: 100.0%;">Neighborhood: Chapinero<br>Cluster: 3</div>`)[0];
+                popup_1b19fdc94f36d8c42748643f13704a81.setContent(html_2047616348fea4660d33433546c01fad);
+            
+        
+
+        marker_d954b1e1207a375e029addd6fe63c180.bindPopup(popup_1b19fdc94f36d8c42748643f13704a81)
+        ;
+
+        
+    
+    
+            var marker_426716d0e29853f1b115f0032c88a495 = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_1c7681140bb226e3587ba1458d468d14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f602b6e2e5e6d349fb7289d6782d786 = $(`<div id="html_6f602b6e2e5e6d349fb7289d6782d786" style="width: 100.0%; height: 100.0%;">Neighborhood: Provenza<br>Cluster: 4</div>`)[0];
+                popup_1c7681140bb226e3587ba1458d468d14.setContent(html_6f602b6e2e5e6d349fb7289d6782d786);
+            
+        
+
+        marker_426716d0e29853f1b115f0032c88a495.bindPopup(popup_1c7681140bb226e3587ba1458d468d14)
+        ;
+
+        
+    
+    
+            var marker_05360501dac2acad5e4d3f1b7ae61cef = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_faa33ea45e8de51f4e59d6696da71376 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_951f98ff128f5b1460b740a03d735b3b = $(`<div id="html_951f98ff128f5b1460b740a03d735b3b" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_faa33ea45e8de51f4e59d6696da71376.setContent(html_951f98ff128f5b1460b740a03d735b3b);
+            
+        
+
+        marker_05360501dac2acad5e4d3f1b7ae61cef.bindPopup(popup_faa33ea45e8de51f4e59d6696da71376)
+        ;
+
+        
+    
+    
+            var marker_b026edc6bb5f519c66a3b44872cdc661 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_0c6b7d42e54339ccbfb5621ead518ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_219852151b22dbe0c802cf7aaca84109 = $(`<div id="html_219852151b22dbe0c802cf7aaca84109" style="width: 100.0%; height: 100.0%;">Neighborhood: Alfonso Lopez<br>Cluster: 0</div>`)[0];
+                popup_0c6b7d42e54339ccbfb5621ead518ae1.setContent(html_219852151b22dbe0c802cf7aaca84109);
+            
+        
+
+        marker_b026edc6bb5f519c66a3b44872cdc661.bindPopup(popup_0c6b7d42e54339ccbfb5621ead518ae1)
+        ;
+
+        
+    
+    
+            var marker_a9e111c07a3d0e171cf7217cb54b0d5b = L.marker(
+                [7.094955741000035, -73.14061271899999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_bc9821afcd5d2ebc660e177be9ae86a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c281dbbd1f2d90504c6de21e00bb2ebf = $(`<div id="html_c281dbbd1f2d90504c6de21e00bb2ebf" style="width: 100.0%; height: 100.0%;">Neighborhood: Mutis<br>Cluster: 4</div>`)[0];
+                popup_bc9821afcd5d2ebc660e177be9ae86a9.setContent(html_c281dbbd1f2d90504c6de21e00bb2ebf);
+            
+        
+
+        marker_a9e111c07a3d0e171cf7217cb54b0d5b.bindPopup(popup_bc9821afcd5d2ebc660e177be9ae86a9)
+        ;
+
+        
+    
+    
+            var marker_60888414a50cb77070939f63eefeea00 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_b5d5ab8b9909e3e1cfe8a7761ac18ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e61576c6679eb6063916408deb9a979d = $(`<div id="html_e61576c6679eb6063916408deb9a979d" style="width: 100.0%; height: 100.0%;">Neighborhood: Alarcon<br>Cluster: 1</div>`)[0];
+                popup_b5d5ab8b9909e3e1cfe8a7761ac18ee4.setContent(html_e61576c6679eb6063916408deb9a979d);
+            
+        
+
+        marker_60888414a50cb77070939f63eefeea00.bindPopup(popup_b5d5ab8b9909e3e1cfe8a7761ac18ee4)
+        ;
+
+        
+    
+    
+            var marker_eb32319e0db3ac47f9dd11f7177e0a86 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_96df52c89117e44d2f54baa204a0ed8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_063881a23b298d4b9aadec8d60ef252d = $(`<div id="html_063881a23b298d4b9aadec8d60ef252d" style="width: 100.0%; height: 100.0%;">Neighborhood: Sotomayor<br>Cluster: 1</div>`)[0];
+                popup_96df52c89117e44d2f54baa204a0ed8e.setContent(html_063881a23b298d4b9aadec8d60ef252d);
+            
+        
+
+        marker_eb32319e0db3ac47f9dd11f7177e0a86.bindPopup(popup_96df52c89117e44d2f54baa204a0ed8e)
+        ;
+
+        
+    
+    
+            var marker_3502fa50be98cc360c8d611c72227e8f = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_e258e03e49de2fc34edcf26be34325d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16a37a5262b7b7b7e92e9915e4f4e85a = $(`<div id="html_16a37a5262b7b7b7e92e9915e4f4e85a" style="width: 100.0%; height: 100.0%;">Neighborhood: Universidad<br>Cluster: 1</div>`)[0];
+                popup_e258e03e49de2fc34edcf26be34325d4.setContent(html_16a37a5262b7b7b7e92e9915e4f4e85a);
+            
+        
+
+        marker_3502fa50be98cc360c8d611c72227e8f.bindPopup(popup_e258e03e49de2fc34edcf26be34325d4)
+        ;
+
+        
+    
+    
+            var marker_f997873a702575d5f35bb1f0134b4a42 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_032640349a3be01b19d30317c403837b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec93dbdeaf2ceeddd295f5f1e49e08c9 = $(`<div id="html_ec93dbdeaf2ceeddd295f5f1e49e08c9" style="width: 100.0%; height: 100.0%;">Neighborhood: Lagos del Cacique<br>Cluster: 2</div>`)[0];
+                popup_032640349a3be01b19d30317c403837b.setContent(html_ec93dbdeaf2ceeddd295f5f1e49e08c9);
+            
+        
+
+        marker_f997873a702575d5f35bb1f0134b4a42.bindPopup(popup_032640349a3be01b19d30317c403837b)
+        ;
+
+        
+    
+    
+            var marker_456fa4f79ed85c4b61599c0f512e41b8 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_cc130b43cecca89d16ac09afca2bd997 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abb05c42b6008169021beef7ec93b59a = $(`<div id="html_abb05c42b6008169021beef7ec93b59a" style="width: 100.0%; height: 100.0%;">Neighborhood: El Prado<br>Cluster: 1</div>`)[0];
+                popup_cc130b43cecca89d16ac09afca2bd997.setContent(html_abb05c42b6008169021beef7ec93b59a);
+            
+        
+
+        marker_456fa4f79ed85c4b61599c0f512e41b8.bindPopup(popup_cc130b43cecca89d16ac09afca2bd997)
+        ;
+
+        
+    
+    
+            var marker_d2c18b08fa502cad2584ee255a14914c = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_4a3ede57217228a94b44de427a16cd65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9afce19b05493e9501f24ecbf810f757 = $(`<div id="html_9afce19b05493e9501f24ecbf810f757" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_4a3ede57217228a94b44de427a16cd65.setContent(html_9afce19b05493e9501f24ecbf810f757);
+            
+        
+
+        marker_d2c18b08fa502cad2584ee255a14914c.bindPopup(popup_4a3ede57217228a94b44de427a16cd65)
+        ;
+
+        
+    
+    
+            var marker_2a56556a946214c62493eab540d08066 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_1bf2c77b975f6cc1f84236ee9175f76d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69c36e6af10cabf5560acfd407cde232 = $(`<div id="html_69c36e6af10cabf5560acfd407cde232" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_1bf2c77b975f6cc1f84236ee9175f76d.setContent(html_69c36e6af10cabf5560acfd407cde232);
+            
+        
+
+        marker_2a56556a946214c62493eab540d08066.bindPopup(popup_1bf2c77b975f6cc1f84236ee9175f76d)
+        ;
+
+        
+    
+    
+            var marker_e11483924dc7cd6c9da15fec0f3d86d1 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_39f29d37d9152663c24fef3e5f6d85db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f547f8a5d41f6cfaf7853a8a863bf602 = $(`<div id="html_f547f8a5d41f6cfaf7853a8a863bf602" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_39f29d37d9152663c24fef3e5f6d85db.setContent(html_f547f8a5d41f6cfaf7853a8a863bf602);
+            
+        
+
+        marker_e11483924dc7cd6c9da15fec0f3d86d1.bindPopup(popup_39f29d37d9152663c24fef3e5f6d85db)
+        ;
+
+        
+    
+    
+            var marker_d340ae2c728bc5ffc73f28e8a13a3fed = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_a4ab6fdd90bb11011267a2c3734ef918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_907e31cb9ca6cf346067b5e4a14a83a7 = $(`<div id="html_907e31cb9ca6cf346067b5e4a14a83a7" style="width: 100.0%; height: 100.0%;">Neighborhood: Provenza<br>Cluster: 4</div>`)[0];
+                popup_a4ab6fdd90bb11011267a2c3734ef918.setContent(html_907e31cb9ca6cf346067b5e4a14a83a7);
+            
+        
+
+        marker_d340ae2c728bc5ffc73f28e8a13a3fed.bindPopup(popup_a4ab6fdd90bb11011267a2c3734ef918)
+        ;
+
+        
+    
+    
+            var marker_e605c2fddc7d7a1f498156b3eebcf6cf = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_31a343956a22b49ac64ec83e37f9083c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe0140ae36fcd130a2319a1335ee9b0b = $(`<div id="html_fe0140ae36fcd130a2319a1335ee9b0b" style="width: 100.0%; height: 100.0%;">Neighborhood: Comuneros<br>Cluster: 3</div>`)[0];
+                popup_31a343956a22b49ac64ec83e37f9083c.setContent(html_fe0140ae36fcd130a2319a1335ee9b0b);
+            
+        
+
+        marker_e605c2fddc7d7a1f498156b3eebcf6cf.bindPopup(popup_31a343956a22b49ac64ec83e37f9083c)
+        ;
+
+        
+    
+    
+            var marker_ad8dcce5a9d6b60eb434c63c178f7135 = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_75a60c3af96ad636907af0f31fb6a556 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_026667bb51762a380169716ac4ee8377 = $(`<div id="html_026667bb51762a380169716ac4ee8377" style="width: 100.0%; height: 100.0%;">Neighborhood: Provenza<br>Cluster: 4</div>`)[0];
+                popup_75a60c3af96ad636907af0f31fb6a556.setContent(html_026667bb51762a380169716ac4ee8377);
+            
+        
+
+        marker_ad8dcce5a9d6b60eb434c63c178f7135.bindPopup(popup_75a60c3af96ad636907af0f31fb6a556)
+        ;
+
+        
+    
+    
+            var marker_80e94a22e8cb5b1dda9e3997cb6da47b = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c7a882718c17d95996a7dbec610ffada = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4e971be2aec969e51d09a4a9a3ce02d = $(`<div id="html_f4e971be2aec969e51d09a4a9a3ce02d" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_c7a882718c17d95996a7dbec610ffada.setContent(html_f4e971be2aec969e51d09a4a9a3ce02d);
+            
+        
+
+        marker_80e94a22e8cb5b1dda9e3997cb6da47b.bindPopup(popup_c7a882718c17d95996a7dbec610ffada)
+        ;
+
+        
+    
+    
+            var marker_0716d43861a40ac81b74d91fb73daef6 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_8678502809e23f65ba6234b1b76e2b91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e330f67b7f1f2f928bffcb667a137d6 = $(`<div id="html_1e330f67b7f1f2f928bffcb667a137d6" style="width: 100.0%; height: 100.0%;">Neighborhood: San Francisco<br>Cluster: 1</div>`)[0];
+                popup_8678502809e23f65ba6234b1b76e2b91.setContent(html_1e330f67b7f1f2f928bffcb667a137d6);
+            
+        
+
+        marker_0716d43861a40ac81b74d91fb73daef6.bindPopup(popup_8678502809e23f65ba6234b1b76e2b91)
+        ;
+
+        
+    
+    
+            var marker_93c97b6919baae623bd5aae88d292882 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_2156a1d83639ec4fe38c8fbdb7cedb93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b66a434dc166eb80c436cfe2bb66455 = $(`<div id="html_4b66a434dc166eb80c436cfe2bb66455" style="width: 100.0%; height: 100.0%;">Neighborhood: Alfonso Lopez<br>Cluster: 0</div>`)[0];
+                popup_2156a1d83639ec4fe38c8fbdb7cedb93.setContent(html_4b66a434dc166eb80c436cfe2bb66455);
+            
+        
+
+        marker_93c97b6919baae623bd5aae88d292882.bindPopup(popup_2156a1d83639ec4fe38c8fbdb7cedb93)
+        ;
+
+        
+    
+    
+            var marker_e7db286a29da8e3232b64402777fc4cb = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_dff1bffa9f1b15a31e314f0578b24290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709c1d1a34839a5d3d15a3ff9c78d8f1 = $(`<div id="html_709c1d1a34839a5d3d15a3ff9c78d8f1" style="width: 100.0%; height: 100.0%;">Neighborhood: La Pedregosa<br>Cluster: 0</div>`)[0];
+                popup_dff1bffa9f1b15a31e314f0578b24290.setContent(html_709c1d1a34839a5d3d15a3ff9c78d8f1);
+            
+        
+
+        marker_e7db286a29da8e3232b64402777fc4cb.bindPopup(popup_dff1bffa9f1b15a31e314f0578b24290)
+        ;
+
+        
+    
+    
+            var marker_9f32bd478c72fed7a75e7779c732d2e0 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_15f7eeceb3677b347ac47158368f3554 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e6a88fab2419e647a5365bcba4af54 = $(`<div id="html_26e6a88fab2419e647a5365bcba4af54" style="width: 100.0%; height: 100.0%;">Neighborhood: Sotomayor<br>Cluster: 1</div>`)[0];
+                popup_15f7eeceb3677b347ac47158368f3554.setContent(html_26e6a88fab2419e647a5365bcba4af54);
+            
+        
+
+        marker_9f32bd478c72fed7a75e7779c732d2e0.bindPopup(popup_15f7eeceb3677b347ac47158368f3554)
+        ;
+
+        
+    
+    
+            var marker_5122a753129cf2324aa4edde69b01ce8 = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_6f0707e65a2b5d872724ebfc3afa8f91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2c46b9fb805f4644ccc24fbeff9dca1 = $(`<div id="html_a2c46b9fb805f4644ccc24fbeff9dca1" style="width: 100.0%; height: 100.0%;">Neighborhood: Conucos<br>Cluster: 2</div>`)[0];
+                popup_6f0707e65a2b5d872724ebfc3afa8f91.setContent(html_a2c46b9fb805f4644ccc24fbeff9dca1);
+            
+        
+
+        marker_5122a753129cf2324aa4edde69b01ce8.bindPopup(popup_6f0707e65a2b5d872724ebfc3afa8f91)
+        ;
+
+        
+    
+    
+            var marker_9fcf481864e33bd81ef0b28143e6856f = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_434370b6d8b10708433010c2a0a1aedc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55898c4bc28e29645f1a103057b230c1 = $(`<div id="html_55898c4bc28e29645f1a103057b230c1" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_434370b6d8b10708433010c2a0a1aedc.setContent(html_55898c4bc28e29645f1a103057b230c1);
+            
+        
+
+        marker_9fcf481864e33bd81ef0b28143e6856f.bindPopup(popup_434370b6d8b10708433010c2a0a1aedc)
+        ;
+
+        
+    
+    
+            var marker_10037792ee4bfae8ec7f42f439948254 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_6d6dbbb718a63230b6dfc29cc43ce961 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13ceaff2fdbf548d939808f83d45f1f1 = $(`<div id="html_13ceaff2fdbf548d939808f83d45f1f1" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_6d6dbbb718a63230b6dfc29cc43ce961.setContent(html_13ceaff2fdbf548d939808f83d45f1f1);
+            
+        
+
+        marker_10037792ee4bfae8ec7f42f439948254.bindPopup(popup_6d6dbbb718a63230b6dfc29cc43ce961)
+        ;
+
+        
+    
+    
+            var marker_356a57d21df65fd05e367d81276d9e4e = L.marker(
+                [7.103720959000043, -73.10733499999998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_4f850b1a1e001b0c8501241044926f35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e04c2120082e7593f4fe693933337fbb = $(`<div id="html_e04c2120082e7593f4fe693933337fbb" style="width: 100.0%; height: 100.0%;">Neighborhood: Puerta del Sol<br>Cluster: 2</div>`)[0];
+                popup_4f850b1a1e001b0c8501241044926f35.setContent(html_e04c2120082e7593f4fe693933337fbb);
+            
+        
+
+        marker_356a57d21df65fd05e367d81276d9e4e.bindPopup(popup_4f850b1a1e001b0c8501241044926f35)
+        ;
+
+        
+    
+    
+            var marker_47a2fce09675cba5960e9fe1e4aa9eb8 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_7083e2d51129fc60793b6cbb7dfaa4a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a3f95d220839d9a162a70477ff84160 = $(`<div id="html_0a3f95d220839d9a162a70477ff84160" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_7083e2d51129fc60793b6cbb7dfaa4a6.setContent(html_0a3f95d220839d9a162a70477ff84160);
+            
+        
+
+        marker_47a2fce09675cba5960e9fe1e4aa9eb8.bindPopup(popup_7083e2d51129fc60793b6cbb7dfaa4a6)
+        ;
+
+        
+    
+    
+            var marker_f49f886493160a6ea6de84b8aefaf3b4 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_5beef1a26ab819d04518dba212d6569c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a71156bf53eb3da4f2948013500741b2 = $(`<div id="html_a71156bf53eb3da4f2948013500741b2" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_5beef1a26ab819d04518dba212d6569c.setContent(html_a71156bf53eb3da4f2948013500741b2);
+            
+        
+
+        marker_f49f886493160a6ea6de84b8aefaf3b4.bindPopup(popup_5beef1a26ab819d04518dba212d6569c)
+        ;
+
+        
+    
+    
+            var marker_6c031bdde2ec575a6b9b1c3e5717490b = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_d1b315cffc4b4d63794f8367a0ed6f05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b0c8ceaea28d69855d97d123fd679a3 = $(`<div id="html_0b0c8ceaea28d69855d97d123fd679a3" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_d1b315cffc4b4d63794f8367a0ed6f05.setContent(html_0b0c8ceaea28d69855d97d123fd679a3);
+            
+        
+
+        marker_6c031bdde2ec575a6b9b1c3e5717490b.bindPopup(popup_d1b315cffc4b4d63794f8367a0ed6f05)
+        ;
+
+        
+    
+    
+            var marker_31520c97443148d3f173775dc982df51 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_d4a09e0f4c2a6f618461d6edc95fb34a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c257ae1b2706b4ba229993ec3b108b9 = $(`<div id="html_2c257ae1b2706b4ba229993ec3b108b9" style="width: 100.0%; height: 100.0%;">Neighborhood: Sotomayor<br>Cluster: 1</div>`)[0];
+                popup_d4a09e0f4c2a6f618461d6edc95fb34a.setContent(html_2c257ae1b2706b4ba229993ec3b108b9);
+            
+        
+
+        marker_31520c97443148d3f173775dc982df51.bindPopup(popup_d4a09e0f4c2a6f618461d6edc95fb34a)
+        ;
+
+        
+    
+    
+            var marker_a066499e3530b3fc46fe4ebad3c7248b = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_92381fd8478bb255ca7103af73532537 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4a75f41dc501c479b5c87b9f75537ba = $(`<div id="html_f4a75f41dc501c479b5c87b9f75537ba" style="width: 100.0%; height: 100.0%;">Neighborhood: Provenza<br>Cluster: 4</div>`)[0];
+                popup_92381fd8478bb255ca7103af73532537.setContent(html_f4a75f41dc501c479b5c87b9f75537ba);
+            
+        
+
+        marker_a066499e3530b3fc46fe4ebad3c7248b.bindPopup(popup_92381fd8478bb255ca7103af73532537)
+        ;
+
+        
+    
+    
+            var marker_8faa4c96c688e0b9804807209b5dfa03 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_181836051c0ad380c14c213256db7c7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19d54e01684bcfa94486de8b89c75256 = $(`<div id="html_19d54e01684bcfa94486de8b89c75256" style="width: 100.0%; height: 100.0%;">Neighborhood: Alfonso Lopez<br>Cluster: 0</div>`)[0];
+                popup_181836051c0ad380c14c213256db7c7f.setContent(html_19d54e01684bcfa94486de8b89c75256);
+            
+        
+
+        marker_8faa4c96c688e0b9804807209b5dfa03.bindPopup(popup_181836051c0ad380c14c213256db7c7f)
+        ;
+
+        
+    
+    
+            var marker_dc7d328a7f811ed9ac8f02c5fd8bbc76 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_90363b9cd32dffffc43fac89a87e7ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffa19ff0727f9ecc88214d643140cb27 = $(`<div id="html_ffa19ff0727f9ecc88214d643140cb27" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_90363b9cd32dffffc43fac89a87e7ca1.setContent(html_ffa19ff0727f9ecc88214d643140cb27);
+            
+        
+
+        marker_dc7d328a7f811ed9ac8f02c5fd8bbc76.bindPopup(popup_90363b9cd32dffffc43fac89a87e7ca1)
+        ;
+
+        
+    
+    
+            var marker_b5d08727a8f08c2bbbbc1817fabe1d17 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_7654a50a6a282e21232846a31dbf07e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74906ca8d835fd110e55cc61419bc8ec = $(`<div id="html_74906ca8d835fd110e55cc61419bc8ec" style="width: 100.0%; height: 100.0%;">Neighborhood: Chapinero<br>Cluster: 3</div>`)[0];
+                popup_7654a50a6a282e21232846a31dbf07e6.setContent(html_74906ca8d835fd110e55cc61419bc8ec);
+            
+        
+
+        marker_b5d08727a8f08c2bbbbc1817fabe1d17.bindPopup(popup_7654a50a6a282e21232846a31dbf07e6)
+        ;
+
+        
+    
+    
+            var marker_9fe0dc775cd80606c13e65b88b35c582 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_1ac96d67e848e42d3cc8abf554dd835b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8b8e9e84102fe0b694e292dac2e9dfb = $(`<div id="html_f8b8e9e84102fe0b694e292dac2e9dfb" style="width: 100.0%; height: 100.0%;">Neighborhood: Universidad<br>Cluster: 1</div>`)[0];
+                popup_1ac96d67e848e42d3cc8abf554dd835b.setContent(html_f8b8e9e84102fe0b694e292dac2e9dfb);
+            
+        
+
+        marker_9fe0dc775cd80606c13e65b88b35c582.bindPopup(popup_1ac96d67e848e42d3cc8abf554dd835b)
+        ;
+
+        
+    
+    
+            var marker_94bdd285f683321db3e658ae1f7c0ffd = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_a20d6403923461f01448701f02fd115f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37f3fc535f3f1dcb0e07aed19f971e57 = $(`<div id="html_37f3fc535f3f1dcb0e07aed19f971e57" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_a20d6403923461f01448701f02fd115f.setContent(html_37f3fc535f3f1dcb0e07aed19f971e57);
+            
+        
+
+        marker_94bdd285f683321db3e658ae1f7c0ffd.bindPopup(popup_a20d6403923461f01448701f02fd115f)
+        ;
+
+        
+    
+    
+            var marker_e8aa7e196012f2745b8611c013f5dcd2 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_9547623a93eef7afdb424f57125ef8a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9db7d56c503f179b084689c397e9fc84 = $(`<div id="html_9db7d56c503f179b084689c397e9fc84" style="width: 100.0%; height: 100.0%;">Neighborhood: Gaitan<br>Cluster: 3</div>`)[0];
+                popup_9547623a93eef7afdb424f57125ef8a4.setContent(html_9db7d56c503f179b084689c397e9fc84);
+            
+        
+
+        marker_e8aa7e196012f2745b8611c013f5dcd2.bindPopup(popup_9547623a93eef7afdb424f57125ef8a4)
+        ;
+
+        
+    
+    
+            var marker_bf6bbfc34ec4bd9deb8a77bacbfe6806 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_19951141795a7ffc04c4e0cb4e39c90e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f382a424aaf0879adf6e2dcdb02d631 = $(`<div id="html_1f382a424aaf0879adf6e2dcdb02d631" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_19951141795a7ffc04c4e0cb4e39c90e.setContent(html_1f382a424aaf0879adf6e2dcdb02d631);
+            
+        
+
+        marker_bf6bbfc34ec4bd9deb8a77bacbfe6806.bindPopup(popup_19951141795a7ffc04c4e0cb4e39c90e)
+        ;
+
+        
+    
+    
+            var marker_c3980a3580cdc208ca3f58b976ecdfcc = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_426cb5037ab19e6f2197864c060c9a90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdb73257298d02766ab2e9bd633afed7 = $(`<div id="html_fdb73257298d02766ab2e9bd633afed7" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_426cb5037ab19e6f2197864c060c9a90.setContent(html_fdb73257298d02766ab2e9bd633afed7);
+            
+        
+
+        marker_c3980a3580cdc208ca3f58b976ecdfcc.bindPopup(popup_426cb5037ab19e6f2197864c060c9a90)
+        ;
+
+        
+    
+    
+            var marker_4d23f5ef3011e635327891b3563652aa = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_07cfb2a446791dea2761979fad4c92ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbbc74427700cc37a58f42267e4f7d66 = $(`<div id="html_bbbc74427700cc37a58f42267e4f7d66" style="width: 100.0%; height: 100.0%;">Neighborhood: Provenza<br>Cluster: 4</div>`)[0];
+                popup_07cfb2a446791dea2761979fad4c92ae.setContent(html_bbbc74427700cc37a58f42267e4f7d66);
+            
+        
+
+        marker_4d23f5ef3011e635327891b3563652aa.bindPopup(popup_07cfb2a446791dea2761979fad4c92ae)
+        ;
+
+        
+    
+    
+            var marker_8db7d1634848e523d63ab2e3d1ea39ff = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_4d599355ea1d0e763ad51d4a6623dc08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3935b8d7f9dc0cdea36daf3577af364 = $(`<div id="html_a3935b8d7f9dc0cdea36daf3577af364" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_4d599355ea1d0e763ad51d4a6623dc08.setContent(html_a3935b8d7f9dc0cdea36daf3577af364);
+            
+        
+
+        marker_8db7d1634848e523d63ab2e3d1ea39ff.bindPopup(popup_4d599355ea1d0e763ad51d4a6623dc08)
+        ;
+
+        
+    
+    
+            var marker_5cb8e1ae20e5c8298f40b7598da2fb08 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_b4d13612763174bfff37bc5267702f97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0f95f5794094a64d2014339ea15eb80 = $(`<div id="html_b0f95f5794094a64d2014339ea15eb80" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_b4d13612763174bfff37bc5267702f97.setContent(html_b0f95f5794094a64d2014339ea15eb80);
+            
+        
+
+        marker_5cb8e1ae20e5c8298f40b7598da2fb08.bindPopup(popup_b4d13612763174bfff37bc5267702f97)
+        ;
+
+        
+    
+    
+            var marker_daef4e0a9b1a68ae124efcc92afea2a0 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_0d803c632688b1a7d581c6a93d73374f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2757b8bc92389abd9f0e64a4f3ca316 = $(`<div id="html_d2757b8bc92389abd9f0e64a4f3ca316" style="width: 100.0%; height: 100.0%;">Neighborhood: Cabecera del Llano<br>Cluster: 1</div>`)[0];
+                popup_0d803c632688b1a7d581c6a93d73374f.setContent(html_d2757b8bc92389abd9f0e64a4f3ca316);
+            
+        
+
+        marker_daef4e0a9b1a68ae124efcc92afea2a0.bindPopup(popup_0d803c632688b1a7d581c6a93d73374f)
+        ;
+
+        
+    
+    
+            var marker_a447cef734a0cb989de6763dbc442ee4 = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_0b1d619c2f4af3a1fcacf6cb48226bcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02ec1c1eba056ecb5c1afe5ec068a573 = $(`<div id="html_02ec1c1eba056ecb5c1afe5ec068a573" style="width: 100.0%; height: 100.0%;">Neighborhood: Provenza<br>Cluster: 4</div>`)[0];
+                popup_0b1d619c2f4af3a1fcacf6cb48226bcf.setContent(html_02ec1c1eba056ecb5c1afe5ec068a573);
+            
+        
+
+        marker_a447cef734a0cb989de6763dbc442ee4.bindPopup(popup_0b1d619c2f4af3a1fcacf6cb48226bcf)
+        ;
+
+        
+    
+    
+            var marker_50c84a4d5ac272e8f2422b089b96fa37 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_f0386215e0f29e252b984496e87842a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5efd53deb2739f3355ea23b1283a0a1c = $(`<div id="html_5efd53deb2739f3355ea23b1283a0a1c" style="width: 100.0%; height: 100.0%;">Neighborhood: Mejoras Publicas<br>Cluster: 1</div>`)[0];
+                popup_f0386215e0f29e252b984496e87842a4.setContent(html_5efd53deb2739f3355ea23b1283a0a1c);
+            
+        
+
+        marker_50c84a4d5ac272e8f2422b089b96fa37.bindPopup(popup_f0386215e0f29e252b984496e87842a4)
+        ;
+
+        
+    
+    
+            var marker_06ffd823cff3aba414d35ee6e3b22a8b = L.marker(
+                [7.094955741000035, -73.14061271899999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_3ab612b7cb2fd96e48a0e33aa9ffb360 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01381a3cf3c7e89aa9eaf48035fe3847 = $(`<div id="html_01381a3cf3c7e89aa9eaf48035fe3847" style="width: 100.0%; height: 100.0%;">Neighborhood: San Miguel<br>Cluster: 4</div>`)[0];
+                popup_3ab612b7cb2fd96e48a0e33aa9ffb360.setContent(html_01381a3cf3c7e89aa9eaf48035fe3847);
+            
+        
+
+        marker_06ffd823cff3aba414d35ee6e3b22a8b.bindPopup(popup_3ab612b7cb2fd96e48a0e33aa9ffb360)
+        ;
+
+        
+    
+    
+            var marker_f85294b2c93b4165dae96aca9ae4e055 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_b2e829e5d3fe9d7fc7f5ff5a1c44c16f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_686a051ba7f3fe1f04747451e9f7fd3d = $(`<div id="html_686a051ba7f3fe1f04747451e9f7fd3d" style="width: 100.0%; height: 100.0%;">Neighborhood: Centro<br>Cluster: 0</div>`)[0];
+                popup_b2e829e5d3fe9d7fc7f5ff5a1c44c16f.setContent(html_686a051ba7f3fe1f04747451e9f7fd3d);
+            
+        
+
+        marker_f85294b2c93b4165dae96aca9ae4e055.bindPopup(popup_b2e829e5d3fe9d7fc7f5ff5a1c44c16f)
+        ;
+
+        
+    
+    
+            var marker_75971794057f8d580bc8103fd942b7f5 = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_c8c382a549a5db52327cad9a30af9c5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4e254fbe82070444657f160bd8a01a1 = $(`<div id="html_b4e254fbe82070444657f160bd8a01a1" style="width: 100.0%; height: 100.0%;">Neighborhood: Diamante II<br>Cluster: 4</div>`)[0];
+                popup_c8c382a549a5db52327cad9a30af9c5b.setContent(html_b4e254fbe82070444657f160bd8a01a1);
+            
+        
+
+        marker_75971794057f8d580bc8103fd942b7f5.bindPopup(popup_c8c382a549a5db52327cad9a30af9c5b)
+        ;
+
+        
+    
+    
+            var marker_ae5068f82e3a25ff7665eb28e042c058 = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_4e3b4ef051ad361dfbd338ac2a036f08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25cab9bf76407db3cf05997984b0fa57 = $(`<div id="html_25cab9bf76407db3cf05997984b0fa57" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_4e3b4ef051ad361dfbd338ac2a036f08.setContent(html_25cab9bf76407db3cf05997984b0fa57);
+            
+        
+
+        marker_ae5068f82e3a25ff7665eb28e042c058.bindPopup(popup_4e3b4ef051ad361dfbd338ac2a036f08)
+        ;
+
+        
+    
+    
+            var marker_2eced75787b074896ea3467af9047e62 = L.marker(
+                [7.158733750000067, -73.13528918399999],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_314797889515cbae51f6941b28f6ef18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b249ff4c8f2666c5ffd548d88712b07 = $(`<div id="html_2b249ff4c8f2666c5ffd548d88712b07" style="width: 100.0%; height: 100.0%;">Neighborhood: San Rafael<br>Cluster: 3</div>`)[0];
+                popup_314797889515cbae51f6941b28f6ef18.setContent(html_2b249ff4c8f2666c5ffd548d88712b07);
+            
+        
+
+        marker_2eced75787b074896ea3467af9047e62.bindPopup(popup_314797889515cbae51f6941b28f6ef18)
+        ;
+
+        
+    
+    
+            var marker_49a8c1bd9ed85b5d782bfd89ff09719d = L.marker(
+                [7.081740000000025, -73.13060569999993],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_d07999465bd4476d8038a195dc7a592a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7729fb42e13a72476ffcae24741012f5 = $(`<div id="html_7729fb42e13a72476ffcae24741012f5" style="width: 100.0%; height: 100.0%;">Neighborhood: Diamante II<br>Cluster: 4</div>`)[0];
+                popup_d07999465bd4476d8038a195dc7a592a.setContent(html_7729fb42e13a72476ffcae24741012f5);
+            
+        
+
+        marker_49a8c1bd9ed85b5d782bfd89ff09719d.bindPopup(popup_d07999465bd4476d8038a195dc7a592a)
+        ;
+
+        
+    
+    
+            var marker_2da27ee6d269c4bfaa66b2930e3eaabb = L.marker(
+                [7.131464699000048, -73.10897890299998],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_66c48c8365d3f37f62e931cfd71cd41f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_478dc62e5c6951a7608c6080ae91b4f1 = $(`<div id="html_478dc62e5c6951a7608c6080ae91b4f1" style="width: 100.0%; height: 100.0%;">Neighborhood: San Alonso<br>Cluster: 1</div>`)[0];
+                popup_66c48c8365d3f37f62e931cfd71cd41f.setContent(html_478dc62e5c6951a7608c6080ae91b4f1);
+            
+        
+
+        marker_2da27ee6d269c4bfaa66b2930e3eaabb.bindPopup(popup_66c48c8365d3f37f62e931cfd71cd41f)
+        ;
+
+        
+    
+    
+            var marker_7f22f3cbc76561b8b9b2fd9b2e2ba019 = L.marker(
+                [7.110720000000072, -73.13506111799995],
+                {}
+            ).addTo(marker_cluster_ba24e0afcd13d48d66ca2a6467ee5efd);
+        
+    
+        var popup_2ea4b924fdd2b06cf46301090ec77aaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66693a12ac5c91f5812501a00a52730f = $(`<div id="html_66693a12ac5c91f5812501a00a52730f" style="width: 100.0%; height: 100.0%;">Neighborhood: Campo Hermoso<br>Cluster: 0</div>`)[0];
+                popup_2ea4b924fdd2b06cf46301090ec77aaa.setContent(html_66693a12ac5c91f5812501a00a52730f);
+            
+        
+
+        marker_7f22f3cbc76561b8b9b2fd9b2e2ba019.bindPopup(popup_2ea4b924fdd2b06cf46301090ec77aaa)
+        ;
+
+        
+    
+</script>
+</html>
